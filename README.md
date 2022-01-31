@@ -21,6 +21,7 @@ To run individual languages use:
 make python
 make javascript
 make scala
+make bash
 ```
 
 ## Authors
