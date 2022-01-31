@@ -26,6 +26,7 @@ make python
 make javascript
 make scala
 make bash
+make ruby
 ```
 
 ## Authors
@@ -34,3 +35,4 @@ make bash
 - [Andraž Brodnik](http://github.com/brodul)
 - [Luka Kacil](https://github.com/lknix)
 - [Oto Brglez](https://github.com/otobrglez)
+- [Krištof Črnivec](https://github.com/MrChriss)
