@@ -19,7 +19,8 @@ javascript:
 
 # Ruby
 ruby:
-	ruby src/ruby/*.rb
+	ruby src/ruby/compress-kbc-0.rb
+	ruby src/ruby/compress-kbc-1.rb
 
 # Scala
 CompressionPuzzle01.class:
