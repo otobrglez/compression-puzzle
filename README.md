@@ -13,7 +13,9 @@ These attempts were made,...
 ## Development
 
 ```bash
-$ nix-shell shell.nix
+# Via Nix Shell
+$ nix-shell shell.nix --run "make run"
+# if you preffer to roll your own local brew
 $ make
 ```
 
