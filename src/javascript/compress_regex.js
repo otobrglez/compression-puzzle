@@ -1,4 +1,4 @@
-const assert = require('assert');
+const assert = require('assert')
 
 const compress = (input) => {
   return input.replace(/([^])\1*/g, (match, p) => match.length + p)
