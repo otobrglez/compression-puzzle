@@ -1,6 +1,5 @@
 :PHONY: scalac
 
-
 run: build scala python javascript bash
 
 clean:
