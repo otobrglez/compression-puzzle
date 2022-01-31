@@ -6,6 +6,8 @@ One lovely Friday we were faced with this nice yet intriguing programming puzzle
 One shall write a program that compresses string "AAABBAAC" to its compressed form "3A2B2A1C".
 ```
 
+These attempts were made,...
+
 ## Development
 
 ```bash
