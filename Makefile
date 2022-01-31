@@ -1,9 +1,13 @@
 :PHONY: scalac
 
-run: build scala python javascript
+run: build scala python javascript bash
 
 clean:
 	rm -rf *.tasty *.class *.class*
+
+#Bash
+bash:
+	bash src/bash/*.sh
 
 # Python
 python:
