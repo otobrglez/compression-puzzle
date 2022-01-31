@@ -1,6 +1,5 @@
 :PHONY: scalac
 
-
 run: build scala python javascript
 
 clean:
@@ -9,7 +8,6 @@ clean:
 # Python
 python:
 	python3 src/python/*.py
-
 
 # JavaScript
 javascript:
