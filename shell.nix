@@ -7,6 +7,7 @@ stdenv.mkDerivation {
       scala
       python3
       nodejs
+      ruby_3_0
     ];
     shellHook = ''
     '';

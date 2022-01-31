@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: build scala python javascript bash
+run: build scala python javascript bash ruby
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -16,6 +16,10 @@ python:
 # JavaScript
 javascript:
 	node src/javascript/*.js
+
+# Ruby
+ruby:
+	ruby src/ruby/*.rb
 
 # Scala
 CompressionPuzzle01.class:
