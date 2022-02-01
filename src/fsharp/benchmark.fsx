@@ -19,10 +19,8 @@ let timeit iterations inputText (fn: string -> string) =
         fn inputText |> ignore
     (System.DateTime.Now - startTime).TotalMilliseconds
 
-candidates
-|> Seq.iter (fun (name, fn) ->
+for name, fn in candidates do
     let bestTime =
         [ for _ in 1..bestOfTrials -> timeit iterations text fn ]
         |> Seq.min
     printfn $"Solution %10s{name}: best time out of {bestOfTrials} with {iterations} conversions was {bestTime} ms"
-)
