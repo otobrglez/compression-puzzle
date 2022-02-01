@@ -1,9 +1,13 @@
 :PHONY: scalac
 
-run: build scala python javascript bash ruby go
+run: build scala python javascript bash ruby go fs
 
 clean:
 	rm -rf *.tasty *.class *.class*
+
+# F#
+fs:
+	./src/fsharp/compress-pk1.fsx
 
 #Bash
 bash:
