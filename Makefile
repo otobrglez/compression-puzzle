@@ -15,7 +15,8 @@ bash:
 
 #Go
 go:
-	go run src/go/*.go
+	go run src/go/compress_mitja.go
+	go run src/go/compress_tit.go
 
 # Python
 python:
