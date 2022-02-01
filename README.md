@@ -48,5 +48,6 @@ make scala
 - [Peter Keše](https://github.com/pkese)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
+- [Simon Belak](https://github.com/sbelak)
 
 
