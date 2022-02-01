@@ -28,3 +28,6 @@ compress: func [
 unless equal? compress "AAABBAAC" "3A2B2A1C" [
 	do make error! "Assertion has failed"
 ]
+
+; here’s the original one-liner solution I used in the console:
+[out: "" parse "AAABBAAC" [collect into out some [s: set char skip any char e: keep (rejoin [(length? s) - length? e char])]]]
