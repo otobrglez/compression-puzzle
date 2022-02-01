@@ -22,11 +22,12 @@ $ make
 To run individual languages use:
 
 ```bash
-make python
-make javascript
-make scala
 make bash
+make go
+make javascript
+make python
 make ruby
+make scala
 ```
 
 ## Authors
@@ -36,3 +37,4 @@ make ruby
 - [Luka Kacil](https://github.com/lknix)
 - [Oto Brglez](https://github.com/otobrglez)
 - [Krištof Črnivec](https://github.com/MrChriss)
+- [Tit Petrič](https://github.com/titpetric)
