@@ -3,7 +3,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
-      dotnet-sdk_5
+      dotnet-sdk_6
       go
       jdk17_headless
       nodejs
