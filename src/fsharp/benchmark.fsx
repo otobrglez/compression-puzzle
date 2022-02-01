@@ -33,8 +33,8 @@ let benchmark text iterations bestOfTrials =
         let bestTime =
             [ for _ in 1..bestOfTrials -> timeit iterations text fn ]
             |> Seq.min
-        printfn $"%14s{name}: best time out of %3d{bestOfTrials} trials with %6d{text.Length} chars x %6d{iterations} compressions was %8.4f{bestTime} ms"
+        printfn $"%14s{name}: best time out of %3d{bestOfTrials} trials with %6d{text.Length} chars x %6d{iterations} compressions was %9.4f{bestTime} ms"
 
 printfn "Benchmarking:"
 benchmark testText 100_000 100
-benchmark (randomString 100_000) 10 20
+benchmark (randomString 100_000) 8 20
