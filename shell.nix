@@ -3,12 +3,13 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
-      jdk17_headless
-      scala
-      python3
-      nodejs
-      ruby_3_0
+      dotnet-sdk_5
       go
+      jdk17_headless
+      nodejs
+      python3
+      ruby_3_0
+      scala
     ];
     shellHook = ''
     '';
