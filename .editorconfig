@@ -11,3 +11,6 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.fs,*.fsx]
+indent_size = 4
