@@ -9,6 +9,7 @@ stdenv.mkDerivation {
       nodejs
       ruby_3_0
       rubyPackages_3_0.minitest
+      go
     ];
     shellHook = ''
     '';

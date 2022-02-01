@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: build scala python javascript bash ruby
+run: build scala python javascript bash ruby go
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -8,6 +8,10 @@ clean:
 #Bash
 bash:
 	bash src/bash/*.sh
+
+#Go
+go:
+	go run src/go/*.go
 
 # Python
 python:
