@@ -44,3 +44,4 @@ make scala
 - [Oto Brglez](https://github.com/otobrglez)
 - [Krištof Črnivec](https://github.com/MrChriss)
 - [Tit Petrič](https://github.com/titpetric)
+- [Urban Škudnik](https://github.com/uskudnik)
