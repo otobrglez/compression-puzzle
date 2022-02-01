@@ -38,6 +38,7 @@ unless equal? compress "AAABBAAC" "3A2B2A1C" [
 decompress: func [
 	"Run-length encoding decompressor"
 	src [string!] "String to decompress"
+	/local out digit number char
 ] [
 	; initalize buffer
 	out: make string! 10
