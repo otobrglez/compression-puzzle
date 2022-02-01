@@ -8,6 +8,7 @@ clean:
 # F#
 fs:
 	./src/fsharp/compress-pk1.fsx
+	./src/fsharp/compress-pk2.fsx
 
 #Bash
 bash:
