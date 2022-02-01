@@ -6,4 +6,4 @@ let rec compress = function
         let n = s |> Seq.takeWhile ((=) s[0]) |> Seq.length
         $"{n}{s[0]}{compress s[n..]}"
 
-assert(compress "AAABBAAC" = "3A2B2A1Cx")
+assert(compress "AAABBAAC" = "3A2B2A1C")
