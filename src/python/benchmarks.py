@@ -6,7 +6,7 @@ from compress_luka import compress as compress_luka
 from compress_ob import compress as compress_ob
 from compress_urban import compress_iterative, compress_recursive
 
-number_of_executions = 1_000_000
+number_of_executions = 10_000
 
 print(
     "Brodul",
