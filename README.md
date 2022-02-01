@@ -13,7 +13,7 @@ These attempts were made,...
 ## Basic rules
 
 1. No external libraries or tools shall be used. Only [standard, bundled libraries](https://en.wikipedia.org/wiki/Standard_library) apply.
-2. "Assert" inside your solution if the function does what it is suppose to do.
+2. "[Assert](https://en.wikipedia.org/wiki/Assertion_(software_development))" inside your solution if the function does what it is suppose to do.
 3. You can apply as many solutions as you want to any language you want.
 
 ## Development
