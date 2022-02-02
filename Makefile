@@ -67,8 +67,8 @@ rye-src:
 
 rye-build: GO111MODULE = auto
 rye-build: rye-src
-	export GO111MODULE=${GO111MODULE} && \
-		cd rye-src && go build -x -tags "b_tiny" -o rye .
+	 cd rye-src && export GO111MODULE=${GO111MODULE} && \
+			go build -x -tags "b_tiny" -o rye .
 
 rye-clean:
 	rm -rf rye-src
