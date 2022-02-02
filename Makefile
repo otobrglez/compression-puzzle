@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: scala python javascript bash ruby go fs clojure rye
+run: scala python javascript bash ruby go fs clojure
 
 clean:
 	rm -rf *.tasty *.class *.class*
