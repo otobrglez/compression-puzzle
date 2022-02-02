@@ -28,7 +28,7 @@ Because its fun!
 - **Will there be any recap/summary/article written?** 
 Hopefully, yes.
 - **How can I contact you?** 
-Try @otobrglez on Twitter or via GitHub issues or something.
+Try [@otobrglez](https://twitter.com/otobrglez) on Twitter or via [GitHub issues](https://github.com/otobrglez/compression-puzzle/issues) or something.
 
 ## Development
 
