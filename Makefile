@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: build scala python javascript bash ruby go fs
+run: scala python javascript bash ruby go fs
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -43,6 +43,3 @@ CompressionPuzzle02.class:
 scala: CompressionPuzzle01.class CompressionPuzzle02.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
-
-build: scala
-	echo "Building completed."
