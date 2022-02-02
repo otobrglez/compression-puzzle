@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: scala python javascript bash ruby go fs clojure rye
+run: scala python javascript bash ruby go fs clojure rye-test
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -49,15 +49,14 @@ scala: CompressionPuzzle01.class CompressionPuzzle02.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
 
-rye: rye-build
-	./rye-src/rye src/rye/compress_jm_rec.rye
-	./rye-src/rye src/rye/compress_jm_rec_steps.rye
+rye-test: rye-build
+	./rye/rye src/rye/compress_jm_rec.rye
+	./rye/rye src/rye/compress_jm_rec_steps.rye
 
 # Rye
-rye-src: GO111MODULE = auto
-rye-src:	
-	export GO111MODULE=${GO111MODULE} && \
-	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye-src && cd rye-src && \
+rye:	
+	export GO111MODULE=auto && \
+	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye && cd rye && \
 		go get -u -v \
 		github.com/refaktor/go-peg \
 		github.com/refaktor/liner \
@@ -65,10 +64,9 @@ rye-src:
 		github.com/pkg/profile \
 		github.com/pkg/term
 
-rye-build: GO111MODULE = auto
-rye-build: rye-src
-	 cd rye-src && export GO111MODULE=${GO111MODULE} && \
+rye-build: rye
+	 cd rye && export GO111MODULE=auto && \
 			go build -x -tags "b_tiny" -o rye .
 
 rye-clean:
-	rm -rf rye-src
+	rm -rf rye
