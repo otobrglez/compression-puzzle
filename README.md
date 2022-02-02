@@ -16,6 +16,20 @@ These attempts were made,...
 2. "[Assert](https://en.wikipedia.org/wiki/Assertion_(software_development))" inside your solution if the function does what it is suppose to do.
 3. You can apply as many solutions as you want to any language you want.
 
+## Additional Q/A
+
+- **What if my language is not yet supported?** No problem. Just pretend that it does and provide some instructions on how can it be ran in the PR. We'll try to use the wizzardy of [Nix](https://nixos.org/) and/or [Docker](https://www.docker.com/) to compile and run it along with others.
+- **Can I submit multiple solutions?**
+Yes; please do.
+- **Should we benchmark the solutions agains each other?** 
+Possibly.
+- **Why are you doing this?** 
+Because its fun!
+- **Will there be any recap/summary/article written?** 
+Hopefully, yes.
+- **How can I contact you?** 
+Try @otobrglez on Twitter or via GitHub issues or something.
+
 ## Development
 
 ```bash
@@ -29,6 +43,7 @@ To run individual languages use:
 
 ```bash
 make bash
+make clojure
 make fs
 make go
 make javascript
