@@ -48,3 +48,8 @@ CompressionPuzzle02.class:
 scala: CompressionPuzzle01.class CompressionPuzzle02.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
+
+# Red
+red-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash \
+		kskarthik/redlang:0.6.4 /app/src/red/run-red.sh
