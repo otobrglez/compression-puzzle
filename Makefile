@@ -5,6 +5,11 @@ run: scala python javascript bash ruby go fs
 clean:
 	rm -rf *.tasty *.class *.class*
 
+# Clojure
+clojure:
+	cd src/clojure/clojpression-puzzle && \
+		clj -X clojpression-puzzle/run
+
 # F#
 fs:
 	./src/fsharp/compress-pk1.fsx

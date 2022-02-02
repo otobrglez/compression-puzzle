@@ -46,8 +46,6 @@ make scala
 - [Mitja Živković](https://linkedin.com/in/mitja-živković-367206)
 - [Oto Brglez](https://github.com/otobrglez)
 - [Peter Keše](https://github.com/pkese)
+- [Simon Belak](https://github.com/sbelak)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
-- [Simon Belak](https://github.com/sbelak)
-
-

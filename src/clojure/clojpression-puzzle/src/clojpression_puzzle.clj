@@ -7,5 +7,5 @@
                                  str))
 
 (defn run [& _]
-  (is (= (compress "AAABBAAC") "3A2B2A1C"))
-  (println (is (compress "AAABBAAC"))))
+  (is (= (compress "AAABBAAC") "3A2B2A1C")))
+  ;; (println (is (compress "AAABBAAC")))

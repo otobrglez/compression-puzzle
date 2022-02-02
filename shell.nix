@@ -10,6 +10,7 @@ stdenv.mkDerivation {
       python3
       ruby_3_0
       scala
+      clojure
     ];
     shellHook = ''
     '';
