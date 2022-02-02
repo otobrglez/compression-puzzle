@@ -5,7 +5,6 @@ stdenv.mkDerivation {
     buildInputs = [
       clojure
       dotnet-sdk_6
-      git
       go_1_16
       jdk17_headless
       nodejs

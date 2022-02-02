@@ -15,4 +15,4 @@ jobs:
         name: mycache
         signingKey: '${{ secrets.CACHIX_SIGNING_KEY }}'
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-    - run: nix-shell shell.nix --pure --run "make run"
+    - run: nix-shell shell.nix --run "make run"
