@@ -49,6 +49,7 @@ make go
 make javascript
 make python
 make ruby
+make rye
 make scala
 ```
 
@@ -56,6 +57,7 @@ make scala
 
 - [Andraž Brodnik](http://github.com/brodul)
 - [David Ličen](https://github.com/davision)
+- [Janko Metelko](https://github.com/refaktor)
 - [Krištof Črnivec](https://github.com/MrChriss)
 - [Luka Kacil](https://github.com/lknix)
 - [Mitja Živković](https://linkedin.com/in/mitja-živković-367206)
