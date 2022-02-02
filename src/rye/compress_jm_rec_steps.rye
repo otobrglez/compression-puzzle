@@ -1,0 +1,59 @@
+
+; Brodul's Python solution without comments
+; https://github.com/otobrglez/compression-puzzle/blob/master/src/python/compress_brodul.py
+;
+; def rec_group(input_, c, result):
+;    if len(input_) == 1:
+;        c += 1
+;        result.append(str(c) + input_)
+;        return result
+;    char, rest = input_[0], input_[1:]
+;    c += 1
+;    if char != rest[0]:
+;        result.append(str(c) + char)
+;        return rec_group(rest, 0, result)
+;    return rec_group(rest, c, result)
+
+; Translation to Rye
+
+rec-group: fn { inp cnt res } {
+	if inp .length = 1 {
+		cnt: inc cnt
+		res: res + cnt .str + inp
+		return res
+	}
+	chr: first inp , rest: tail inp 
+	cnt: inc cnt
+	either not chr = first rest {
+		res: res + cnt .str + chr
+		rec-group rest 0 res
+	} {	rec-group rest cnt res }
+}
+
+rec-group "AAABBAA" 0 "" |assert-equal "3A2B2A"
+
+; Some optimisations
+
+compress-rec-1: fn { inp cnt res } {
+	cnt: inc cnt                 ; cnt is incremeneted in all branches so we move it up here
+	^if inp .length = 1 {        ; ^if is a "returning function", on true it automatically returns to caller
+		res + cnt .str + inp       ; result of the last expression is always automatically returned 
+	}
+	chr: first inp , rest: tail inp 
+	either not chr = first rest {
+		compress-rec-1 rest 0 res + cnt .str + chr ; we remove the temp variable and leave just expression
+	} {	compress-rec-1 rest cnt res }
+}
+
+compress-rec-1 "AAABBAA" 0 "" |assert-equal "3A2B2A"
+
+; Final code
+
+compress-rec: fn { inp cnt res } { c: inc cnt 
+  ^if inp .length = 1 { res + c .str + inp } 
+  ^if inp .first = second inp { compress-rec tail inp c res } 
+  compress-rec  tail inp  0  res + c .str + first inp 
+}
+
+compress-rec "AAABBAA" 0 "" |assert-equal "3A2B2A"
+
