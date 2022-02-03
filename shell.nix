@@ -3,8 +3,10 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
-      dotnet-sdk_5
-      go
+      clojure
+      dotnet-sdk_6
+      git
+      go_1_16
       jdk17_headless
       nodejs
       python3

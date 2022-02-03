@@ -1,3 +1,5 @@
+rye-src
+
 .envrc
 *.class
 *.tasty
