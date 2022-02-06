@@ -1,6 +1,6 @@
 :PHONY: scalac
 
-run: scala python javascript bash ruby go fs clojure
+run: scala python javascript bash ruby go fs clojure haskell
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -55,7 +55,7 @@ rye: rye-build
 
 # Rye
 rye-src: GO111MODULE = auto
-rye-src:	
+rye-src:
 	export GO111MODULE=${GO111MODULE} && \
 	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye-src && cd rye-src && \
 		go get -u -v \
@@ -69,6 +69,10 @@ rye-build: GO111MODULE = auto
 rye-build: rye-src
 	export GO111MODULE=${GO111MODULE} && \
 		cd rye-src && go build -x -tags "b_tiny" -o rye .
+
+.PHONY: haskell
+haskell:
+	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 
 rye-clean:
 	rm -rf rye-src
