@@ -1,5 +1,3 @@
-import kotlin.assert
-
 fun compress(input: String): String {
   var compressed = ""
   return input
