@@ -51,6 +51,7 @@ make python
 make ruby
 make rye
 make scala
+make kotlin
 ```
 
 ## Authors
@@ -67,4 +68,5 @@ make scala
 - [Simon Belak](https://github.com/sbelak)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
+- [Jernej Virag](https://github.com/izacus)
 
