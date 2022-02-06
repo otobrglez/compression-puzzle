@@ -15,4 +15,4 @@ compress orig =
     (\(c, v) -> [chr (c + 48), v]) =<< count orig
 
 main :: IO ()
-main = getLine >>= (print . compress)
+main = getLine >>= (putStrLn . compress)
