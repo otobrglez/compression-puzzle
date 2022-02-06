@@ -47,6 +47,7 @@ make clojure
 make fs
 make go
 make javascript
+make kotlin
 make python
 make ruby
 make rye
@@ -67,4 +68,5 @@ make scala
 - [Simon Belak](https://github.com/sbelak)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
+- [Miha Novak](https://github.com/mihanovak1024)
 

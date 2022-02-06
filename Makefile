@@ -33,6 +33,10 @@ python:
 javascript:
 	node src/javascript/*.js
 
+# Kotlin
+kotlin:
+	kotlinc -script src/kotlin/mn1024_compress.kts
+
 # Ruby
 ruby:
 	ruby src/ruby/compress-kbc-0.rb
@@ -55,7 +59,7 @@ rye: rye-build
 
 # Rye
 rye-src: GO111MODULE = auto
-rye-src:	
+rye-src:
 	export GO111MODULE=${GO111MODULE} && \
 	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye-src && cd rye-src && \
 		go get -u -v \
