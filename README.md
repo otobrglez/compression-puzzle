@@ -54,6 +54,7 @@ make ruby
 make rye
 make scala
 make haskell
+make rust
 ```
 
 ## Benchmarking
@@ -87,5 +88,6 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 - [Oto Brglez](https://github.com/otobrglez)
 - [Peter Keše](https://github.com/pkese)
 - [Simon Belak](https://github.com/sbelak)
+- [Simon Žlender](https://github.com/szlend)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)

@@ -1,4 +1,5 @@
 rye/
+build/
 
 .envrc
 *.class
