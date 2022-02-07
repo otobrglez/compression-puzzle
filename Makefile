@@ -1,6 +1,6 @@
-:PHONY: scalac
+:PHONY: bash clojure fs go javascript kotlin python ruby scala clean
 
-run: scala python javascript bash ruby go fs clojure kotlin
+run: bash clojure fs go javascript kotlin python ruby scala 
 
 clean:
 	rm -rf *.tasty *.class *.class*
