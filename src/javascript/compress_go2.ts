@@ -20,10 +20,10 @@ const groupByChar = (chars: string[], prev: string | null = null, acc: string[][
     return chRest.length === 0 ? newAcc : groupByChar(chRest, ch1, newAcc); 
   }
   
-  const compressed = groupByChar([...'AAABBAAC']).map((v) => `${v.length}${v[0]}`).join('')
+const compress = (input: string) =>  groupByChar([...input]).map((v) => `${v.length}${v[0]}`).join('')
 
-  assert.equal(
-    compress("AAABBAAC"),
-    "3A2B2A1C"
-  );
+assert.equal(
+compress("AAABBAAC"),
+"3A2B2A1C"
+);
   
