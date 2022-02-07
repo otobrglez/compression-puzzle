@@ -8,6 +8,7 @@ stdenv.mkDerivation {
       git
       go_1_16
       jdk17_headless
+      kotlin
       nodejs
       python3
       ruby_3_0
