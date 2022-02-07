@@ -46,14 +46,30 @@ make bash
 make clojure
 make fs
 make go
-make haskell
 make javascript
 make kotlin
 make python
 make ruby
 make rye
 make scala
+make haskell
 ```
+
+## Benchmarking
+
+Although benchmarking is not the primary goal of this project; some authors are really kean to measure the performance of their solutions and compare them to others. 
+
+These languages have benchmarking suites made and feel free to give the ma try.
+
+```bash
+# Python
+python src/python/benchmarks.py
+
+# F#
+./src/fsharp/benchmark.fsx
+```
+
+P.s.: If you feel the urge that you need to benchmark your solution agains others; please feel free to do so and attach some instructions to [your PR](https://github.com/otobrglez/compression-puzzle/pulls).
 
 ## Authors
 
