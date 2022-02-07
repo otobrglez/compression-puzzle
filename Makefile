@@ -33,9 +33,6 @@ python:
 javascript:
 	node src/javascript/*.js
 
-# Kotlin
-kotlin:
-	kotlinc -script src/kotlin/mn1024_compress.kts
 
 # Ruby
 ruby:
@@ -56,6 +53,7 @@ scala: CompressionPuzzle01.class CompressionPuzzle02.class
 # Kotlin
 kotlin:
 	kotlinc -script src/kotlin/compress.kts
+	kotlinc -script src/kotlin/mn1024_compress.kts
 
 rye: rye-build
 	./rye-src/rye src/rye/compress_jm_rec.rye
