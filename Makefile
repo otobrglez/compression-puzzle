@@ -49,6 +49,10 @@ scala: CompressionPuzzle01.class CompressionPuzzle02.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
 
+# Kotlin
+kotlin:
+	kotlinc -script src/kotlin/compress.kts
+
 rye: rye-build
 	./rye-src/rye src/rye/compress_jm_rec.rye
 	./rye-src/rye src/rye/compress_jm_rec_steps.rye
