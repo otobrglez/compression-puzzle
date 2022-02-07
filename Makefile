@@ -1,6 +1,6 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell clean
 
-run: bash clojure fs go javascript kotlin python ruby scala 
+run: bash clojure fs go javascript kotlin python ruby scala haskell
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -75,6 +75,9 @@ rye-build: GO111MODULE = auto
 rye-build: rye-src
 	export GO111MODULE=${GO111MODULE} && \
 		cd rye-src && go build -x -tags "b_tiny" -o rye .
+
+haskell:
+	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 
 rye-clean:
 	rm -rf rye-src
