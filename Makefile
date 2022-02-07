@@ -1,6 +1,6 @@
-:PHONY: scalac
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell clean
 
-run: scala python javascript bash ruby go fs clojure haskell
+run: bash clojure fs go javascript kotlin python ruby scala haskell
 
 clean:
 	rm -rf *.tasty *.class *.class*
@@ -33,6 +33,7 @@ python:
 javascript:
 	node src/javascript/*.js
 
+
 # Ruby
 ruby:
 	ruby src/ruby/compress-kbc-0.rb
@@ -48,6 +49,11 @@ CompressionPuzzle02.class:
 scala: CompressionPuzzle01.class CompressionPuzzle02.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
+
+# Kotlin
+kotlin:
+	kotlinc -script src/kotlin/compress.kts
+	kotlinc -script src/kotlin/mn1024_compress.kts
 
 rye: rye-build
 	./rye-src/rye src/rye/compress_jm_rec.rye
@@ -70,7 +76,6 @@ rye-build: rye-src
 	export GO111MODULE=${GO111MODULE} && \
 		cd rye-src && go build -x -tags "b_tiny" -o rye .
 
-.PHONY: haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 

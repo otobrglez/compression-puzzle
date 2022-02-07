@@ -47,6 +47,7 @@ make clojure
 make fs
 make go
 make javascript
+make kotlin
 make python
 make ruby
 make rye
@@ -58,13 +59,14 @@ make scala
 - [Andraž Brodnik](http://github.com/brodul)
 - [David Ličen](https://github.com/davision)
 - [Janko Metelko](https://github.com/refaktor)
+- [Jernej Virag](https://github.com/izacus)
 - [Klemen Kogovšek](https://github.com/kkogovsek)
 - [Krištof Črnivec](https://github.com/MrChriss)
 - [Luka Kacil](https://github.com/lknix)
+- [Miha Novak](https://github.com/mihanovak1024)
 - [Mitja Živković](https://linkedin.com/in/mitja-živković-367206)
 - [Oto Brglez](https://github.com/otobrglez)
 - [Peter Keše](https://github.com/pkese)
 - [Simon Belak](https://github.com/sbelak)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
-
