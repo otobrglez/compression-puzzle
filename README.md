@@ -46,6 +46,7 @@ make bash
 make clojure
 make fs
 make go
+make haskell
 make javascript
 make kotlin
 make python
