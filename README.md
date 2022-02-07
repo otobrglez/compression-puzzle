@@ -63,6 +63,7 @@ make scala
 - [Klemen Kogovšek](https://github.com/kkogovsek)
 - [Krištof Črnivec](https://github.com/MrChriss)
 - [Luka Kacil](https://github.com/lknix)
+- [Marek Fajkus](https://github.com/turboMaCk)
 - [Miha Novak](https://github.com/mihanovak1024)
 - [Mitja Živković](https://linkedin.com/in/mitja-živković-367206)
 - [Oto Brglez](https://github.com/otobrglez)
