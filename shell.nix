@@ -13,6 +13,7 @@ stdenv.mkDerivation {
       python3
       ruby_3_0
       scala
+      kotlin
     ];
     shellHook = ''
     '';
