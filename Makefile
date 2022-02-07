@@ -27,7 +27,7 @@ go:
 
 # Python
 python:
-	python3 src/python/*.py
+	python3 src/python/compress_*.py
 
 # JavaScript
 javascript:
