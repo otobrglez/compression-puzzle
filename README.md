@@ -47,11 +47,11 @@ make clojure
 make fs
 make go
 make javascript
+make kotlin
 make python
 make ruby
 make rye
 make scala
-make kotlin
 ```
 
 ## Authors
@@ -59,6 +59,7 @@ make kotlin
 - [Andraž Brodnik](http://github.com/brodul)
 - [David Ličen](https://github.com/davision)
 - [Janko Metelko](https://github.com/refaktor)
+- [Jernej Virag](https://github.com/izacus)
 - [Klemen Kogovšek](https://github.com/kkogovsek)
 - [Krištof Črnivec](https://github.com/MrChriss)
 - [Luka Kacil](https://github.com/lknix)
@@ -68,5 +69,3 @@ make kotlin
 - [Simon Belak](https://github.com/sbelak)
 - [Tit Petrič](https://github.com/titpetric)
 - [Urban Škudnik](https://github.com/uskudnik)
-- [Jernej Virag](https://github.com/izacus)
-
