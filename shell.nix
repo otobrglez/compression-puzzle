@@ -14,7 +14,7 @@ stdenv.mkDerivation {
       ruby_3_0
       scala
       ghc
-      kotlin
+      rustc
     ];
     shellHook = ''
     '';

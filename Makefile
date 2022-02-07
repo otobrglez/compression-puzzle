@@ -1,9 +1,9 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust clean
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust
 
 clean:
-	rm -rf *.tasty *.class *.class*
+	rm -rf build *.tasty *.class *.class*
 
 # Clojure
 clojure:
@@ -81,3 +81,6 @@ haskell:
 
 rye-clean:
 	rm -rf rye-src
+
+rust:
+	rustc src/rust/compress.rs -O --test --out-dir build/rust && ./build/rust/compress
