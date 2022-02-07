@@ -1,4 +1,4 @@
-/* SQLite 3 supporst recursive queries */
+/* SQLite 3 supports recursive queries for graphs, etc ... */
 
 DROP VIEW IF EXISTS compress_view;
 
