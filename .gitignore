@@ -1,7 +1,9 @@
 rye/
 build/
+lib/
 
 .envrc
+.merlin
 *.class
 *.tasty
 *.class'
