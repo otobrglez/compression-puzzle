@@ -53,7 +53,7 @@ make kotlin
 make python
 make ruby
 make rust
-make rye
+make rye-docker
 make scala
 ```
 

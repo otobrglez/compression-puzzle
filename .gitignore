@@ -1,7 +1,7 @@
-rye/
 build/
 
 .envrc
 *.class
 *.tasty
 *.class'
+*~

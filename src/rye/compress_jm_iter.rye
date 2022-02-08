@@ -1,0 +1,13 @@
+; strongly inspired by Mitja's Golang iterative solution
+; Look at "_steps" file for more information, comments, etc
+
+compress: fn1 {
+	|pass { .first |fix "" :chr , cnt: 0 , out: ""
+		output: { cnt .concat chr |append! 'out } }
+	|for { = chr |either { inc! 'cnt }
+		{ do output , cnt: 1 } , :chr                    
+	} do output
+}
+
+"AAABBACCC" .compress .assert-equal "3A2B1A3C"
+

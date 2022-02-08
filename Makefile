@@ -55,32 +55,14 @@ kotlin:
 	kotlinc -script src/kotlin/compress.kts
 	kotlinc -script src/kotlin/mn1024_compress.kts
 
-rye: rye-build
-	./rye-src/rye src/rye/compress_jm_rec.rye
-	./rye-src/rye src/rye/compress_jm_rec_steps.rye
-
 # Rye
-rye-src: GO111MODULE = auto
-rye-src:
-	export GO111MODULE=${GO111MODULE} && \
-	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye-src && cd rye-src && \
-		go get -u -v \
-		github.com/refaktor/go-peg \
-		github.com/refaktor/liner \
-		golang.org/x/net/html \
-		github.com/pkg/profile \
-		github.com/pkg/term
+rye-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash refaktorlabs/ryelang:latest /app/src/rye/run-all.sh
 
-rye-build: GO111MODULE = auto
-rye-build: rye-src
-	export GO111MODULE=${GO111MODULE} && \
-		cd rye-src && go build -x -tags "b_tiny" -o rye .
-
+# Haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 
-rye-clean:
-	rm -rf rye-src
-
+# Rust
 rust:
 	rustc src/rust/compress.rs -O --test --out-dir build/rust && ./build/rust/compress
