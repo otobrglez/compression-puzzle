@@ -15,7 +15,8 @@ WITH RECURSIVE
   )
 SELECT * FROM letters;
 
-SELECT * FROM compress_view;
+-- Commented for test script, uncomment to run and see the results
+-- SELECT * FROM compress_view;
 
 /* returns a more interesting result
 AAABBAAC||1|
@@ -29,8 +30,11 @@ C|C|1|3A2B2A
 ||1|3A2B2A1C
 */
 
-SELECT max(result) FROM compress_view;
+-- Commented for test script, uncomment to run and see the results
+-- SELECT max(result) FROM compress_view;
 
 /* returns
 3A2B2A1C
 */
+
+select "WRONG RESULT" WHERE "3A2B2A1C" <> (select max(result) from compress_view);
