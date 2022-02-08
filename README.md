@@ -45,6 +45,7 @@ To run individual languages use:
 ```bash
 make bash
 make clojure
+make elixir
 make fs
 make go
 make haskell
