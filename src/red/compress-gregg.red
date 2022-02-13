@@ -72,11 +72,16 @@ tests: [
 	"0"
 	;"111111111111111122222222233333333333333456666"
 ]
-foreach orig tests [
-	print ["ORIG:" mold orig tab "RLE:" mold rle: run-length-encode copy orig]    ; COPY is important here!
-	print ["RLE: " mold rle  tab "OUT:" mold out: run-length-decode rle]
-	print either orig = out ["OK"]["Round trip failed"]
-	print '-------
+;
+; foreach orig tests [
+;	print ["ORIG:" mold orig tab "RLE:" mold rle: run-length-encode copy orig]    ; COPY is important here!
+;	print ["RLE: " mold rle  tab "OUT:" mold out: run-length-decode rle]
+;	print either orig = out ["OK"]["Round trip failed"]
+;	print '-------
+; ]
+
+unless equal? run-length-encode "AAABBAAC" "3A2B2A1C" [
+	do make error! "Assertion has failed."
 ]
 
-halt
+

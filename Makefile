@@ -76,6 +76,11 @@ rye-build: rye-src
 	export GO111MODULE=${GO111MODULE} && \
 		cd rye-src && go build -x -tags "b_tiny" -o rye .
 
+# Red
+red-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
+
+# Haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 
