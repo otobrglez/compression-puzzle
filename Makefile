@@ -1,9 +1,10 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite clean
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite
 
 clean:
-	rm -rf build *.tasty *.class *.class* src/ts/*.js
+	rm -rf build *.tasty *.class *.class* \
+		src/ts/*.js src/sqlite/compress_rec.db
 
 # Clojure
 clojure:
@@ -96,3 +97,5 @@ elixir:
 typescript: 
 	tsc && node src/ts/*.js
 
+sqlite:
+	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"

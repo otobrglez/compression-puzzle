@@ -57,6 +57,7 @@ make ruby
 make rust
 make rye
 make scala
+make sqlite
 make typescript
 ```
 
