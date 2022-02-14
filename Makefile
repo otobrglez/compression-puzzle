@@ -1,9 +1,9 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript clean
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript
 
 clean:
-	rm -rf build *.tasty *.class *.class*
+	rm -rf build *.tasty *.class *.class* src/ts/*.js
 
 # Clojure
 clojure:
@@ -92,3 +92,7 @@ rescript:
 elixir:
 	elixir src/elixir/compress.exs
 	elixir src/elixir/compress_rec.exs
+
+typescript: 
+	tsc && node src/ts/*.js
+
