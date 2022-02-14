@@ -5,6 +5,7 @@ stdenv.mkDerivation {
     buildInputs = [
       clojure
       dotnet-sdk_6
+      elixir
       git
       go_1_16
       jdk17_headless
