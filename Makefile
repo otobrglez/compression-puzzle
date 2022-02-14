@@ -28,7 +28,7 @@ go:
 
 # Python
 python:
-	python3 src/python/compress_*.py
+	find src/python -type f \( -iname "*.py" ! -iname benchmarks.py \) | xargs -n1 python
 
 # JavaScript
 javascript:
