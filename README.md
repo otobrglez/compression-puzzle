@@ -52,10 +52,12 @@ make haskell
 make javascript
 make kotlin
 make python
+make rescript
 make ruby
 make rust
 make rye
 make scala
+make typescript
 ```
 
 ## Benchmarking
@@ -78,6 +80,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 
 - [Andraž Brodnik](http://github.com/brodul)
 - [David Ličen](https://github.com/davision)
+- [Goran Kodrun](https://github.com/liveandie)
 - [Janko Metelko](https://github.com/refaktor)
 - [Jernej Virag](https://github.com/izacus)
 - [Klemen Kogovšek](https://github.com/kkogovsek)

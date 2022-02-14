@@ -16,7 +16,11 @@ stdenv.mkDerivation {
       scala
       ghc
       rustc
+      yarn
     ];
     shellHook = ''
+      export PATH="$PWD/node_modules/.bin/:$PATH"
+      mkdir -p $PWD/node_modules/.bin/
+      yarn install
     '';
 }
