@@ -1,0 +1,8 @@
+{
+  "name": "re-compression-puzzle",
+  "version": "0.1.0",
+  "sources": {
+    "dir": ".",
+    "subdirs": true
+  }
+}
