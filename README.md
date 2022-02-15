@@ -44,6 +44,7 @@ To run individual languages use:
 
 ```bash
 make bash
+make c++
 make clojure
 make cs
 make elixir
@@ -97,6 +98,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Marek Fajkus](https://github.com/turboMaCk) | [Haskell](src/haskell/Compress_turbomack.hs)|
 |[Miha Novak](https://github.com/mihanovak1024) | [Kotlin](src/kotlin/mn1024_compress.kts)|
 |[Mitja Živković](https://linkedin.com/in/mitja-živković-367206) | [Go](src/go/compress_mitja.go)|
+|[Nejc Ilenič](https://github.com/inejc) | C++: [compress_fast.cpp](src/c++/compress_fast.cpp), [compress_slow.cpp](src/c++/compress_slow.cpp)|
 |[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
 |[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
@@ -106,8 +108,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 21
-- The number of solutions: 42
-- The number of programming languages: 18
-- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, F#: 3, Red: 3, Kotlin: 2, Elixir: 2, Go: 2, Ruby: 2, Scala: 2, Rust: 1, TypeScript: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, C#: 1, Clojure: 1
+- The number of authors: 22
+- The number of solutions: 44
+- The number of programming languages: 19
+- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, Red: 3, F#: 3, Go: 2, Elixir: 2, Kotlin: 2, Ruby: 2, Scala: 2, C++: 2, Rust: 1, TypeScript: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, C#: 1, Clojure: 1
 

@@ -124,3 +124,9 @@ authors:
     profile: https://github.com/papsl
     solutions:
       - src/cs/pp/Program.cs
+
+  - name: Nejc Ilenič
+    profile: https://github.com/inejc
+    solutions:
+      - src/c++/compress_fast.cpp
+      - src/c++/compress_slow.cpp
