@@ -84,7 +84,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
-|[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_rec.sql](src/rye/compress_jm_rec.sql), [compress_jm_rec_steps.sql](src/rye/compress_jm_rec_steps.sql), [SQLite](src/sqlite/compress_rec.sql)|
+|[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [SQLite](src/sqlite/compress_rec.sql)|
 |[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
 |[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
 |[Krištof Črnivec](https://github.com/MrChriss) | Ruby: [compress-kbc-0.rb](src/ruby/compress-kbc-0.rb), [compress-kbc-1.rb](src/ruby/compress-kbc-1.rb)|
