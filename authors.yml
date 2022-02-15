@@ -1,0 +1,102 @@
+authors:
+  - name: Andraž Brodnik
+    profile: http://github.com/brodul
+    solutions:
+      - src/python/compress_brodul.py
+
+  - name: David Ličen
+    profile: https://github.com/davision
+    solutions:
+      - src/javascript/compress_da01.js
+      - src/javascript/compress_da02.js
+
+  - name: Goran Kodrun
+    profile: https://github.com/liveandie
+    solutions:
+      - src/javascript/compress_go.js
+      - src/ts/compress_go2.ts
+
+  - name: Janko Metelko
+    profile: https://github.com/refaktor
+    solutions:
+      - src/sqlite/compress_rec.sql
+      - src/rye/compress_jm_rec.sql
+      - src/rye/compress_jm_rec_steps.sql
+  
+  - name: Jernej Virag
+    profile: https://github.com/izacus
+    solutions:
+      - src/kotlin/compress.kts
+
+  - name: Klemen Kogovšek
+    profile: https://github.com/kkogovsek
+    solutions:
+      - src/rescript/PatternMatchCompress.res
+      - src/javascript/compress_reduce_klemen.js
+
+  - name: Krištof Črnivec
+    profile: https://github.com/MrChriss
+    solutions:
+      - src/ruby/compress-kbc-0.rb
+      - src/ruby/compress-kbc-1.rb
+
+  - name: Luka Kacil
+    profile: https://github.com/lknix
+    solutions:
+      - src/python/compress_luka.py
+      - src/python/compress_luka_faster.py
+      - src/python/compress_luka_rec1.py
+      - src/python/compress_luka_rec2.py
+      - src/python/compress_luka_tailrec.py
+  
+  - name: Marek Fajkus
+    profile: https://github.com/turboMaCk
+    solutions:
+      - src/haskell/Compress_turbomack.hs
+
+  - name: Miha Novak
+    profile: https://github.com/mihanovak1024
+    solutions:
+      - src/kotlin/mn1024_compress.kts
+  
+  - name: Mitja Živković
+    profile: https://linkedin.com/in/mitja-živković-367206
+    solutions:
+      - src/go/compress_mitja.go
+
+  - name: Oto Brglez
+    profile: https://github.com/otobrglez
+    solutions:
+      - src/scala/CompressionPuzzle01.scala
+      - src/scala/CompressionPuzzle02.scala
+      - src/python/compress_ob.py
+      - src/bash/compress_lk.sh
+      - src/javascript/compress_ob.js
+
+  - name: Peter Keše
+    profile: https://github.com/pkese
+    solutions:
+      - src/fsharp/compress-pk1.fsx
+      - src/fsharp/compress-pk2.fsx
+      - src/fsharp/compress-pk3.fsx
+
+  - name: Simon Belak
+    profile: https://github.com/sbelak
+    solutions:
+      - src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj
+
+  - name: Simon Žlender
+    profile: https://github.com/szlend
+    solutions:
+      - src/elixir/compress.exs
+      - src/elixir/compress_rec.exs
+
+  - name: Tit Petrič
+    profile: https://github.com/titpetric
+    solutions:
+      - src/go/compress_tit.go
+
+  - name: Urban Škudnik
+    profile: https://github.com/uskudnik
+    solutions:
+      - src/python/compress_urban.py
