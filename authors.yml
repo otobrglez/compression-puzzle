@@ -48,7 +48,8 @@ authors:
       - src/python/compress_luka_rec1.py
       - src/python/compress_luka_rec2.py
       - src/python/compress_luka_tailrec.py
-  
+      - src/bash/compress_lk.sh
+
   - name: Marek Fajkus
     profile: https://github.com/turboMaCk
     solutions:
@@ -70,7 +71,6 @@ authors:
       - src/scala/CompressionPuzzle01.scala
       - src/scala/CompressionPuzzle02.scala
       - src/python/compress_ob.py
-      - src/bash/compress_lk.sh
       - src/javascript/compress_ob.js
 
   - name: Peter Keše
