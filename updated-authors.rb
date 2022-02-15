@@ -50,12 +50,12 @@ end
 def render(authors)
   out = "## Authors\n\n"
   out += "| Author | Solutions |\n"
-  out += "| :--- | --- |\n"
+  out += "| --- | --- |\n"
   authors.each do |author|
     out += "|" + profile(author) + " | " +  solutions(author) + "|\n"
   end
   out += "\n"
-  out += "## The stats 📈\n"
+  out += "## The Stats 📈\n"
   out += "- The number of authors: #{authors.size}\n"
   out += "- The number of solutions: #{authors.map { |a| a[:solutions] }.flatten.size}\n"
   out += "- The number of programming languages: #{authors.map {|a| a[:solutions]}.flatten.map {|s| s.split('/')[1] }.uniq.size}\n"

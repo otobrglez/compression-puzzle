@@ -80,7 +80,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 ## Authors
 
 | Author | Solutions |
-| :--- | --- |
+| --- | --- |
 |[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
@@ -99,7 +99,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
-## Stats
+## The Stats 📈
 - The number of authors: 17
 - The number of solutions: 34
 - The number of programming languages: 15
