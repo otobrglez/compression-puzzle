@@ -99,3 +99,7 @@ typescript:
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
+
+update-readme:
+	./updated-authors.rb > README2.md
+	mv README2.md README.md
