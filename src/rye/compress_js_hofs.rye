@@ -1,0 +1,32 @@
+; Third set of solutions is inspired by Simon's Clojure solution.
+; Clojure function Partition seems like made for this problem,
+; so I added it to Ryelang.
+; 
+; (ns clojpression-puzzle
+;   (:require [clojure.test :refer [is]]))
+; 
+; (def compress (partial transduce (comp (partition-by identity)
+;                                        (mapcat (fn [[c & _ :as cs]]
+;                                                  [(count cs) c])))
+;                                  str))
+; 
+; (defn run [& _]
+;   (is (= (compress "AAABBAAC") "3A2B2A1C")))
+
+; using partition, map and join
+
+compress-a: fn1 { .partition { , } |map { :a .length .concat first a } |join }
+
+; using partition and fold
+
+compress-b: fn1 { .partition { , } |fold 'acc "" { :a .length .concat first a |concat* acc } }
+
+compress-c: fn1 { .partition { , } |fold 'acc "" { :a { acc length a  first a } .eval .join } }
+
+; assertions
+
+"AAAAABBCCC" .compress-a .assert-equal "5A2B3C"
+
+"AAAABBBCCC" .compress-b .assert-equal "4A3B3C"
+
+"AAAABBCCCC" .compress-c .assert-equal "4A2B4C"

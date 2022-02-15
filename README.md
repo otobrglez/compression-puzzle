@@ -56,7 +56,7 @@ make red-docker
 make rescript
 make ruby
 make rust
-make rye
+make rye-docker
 make scala
 make sqlite
 make typescript
