@@ -98,7 +98,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Miha Novak](https://github.com/mihanovak1024) | [Kotlin](src/kotlin/mn1024_compress.kts)|
 |[Mitja Živković](https://linkedin.com/in/mitja-živković-367206) | [Go](src/go/compress_mitja.go)|
 |[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
-|[Peter A. Pirc](https://github.com/papsl) | [Cs](src/cs/pp/Program.cs)|
+|[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
@@ -109,5 +109,5 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 - The number of authors: 21
 - The number of solutions: 42
 - The number of programming languages: 18
-- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, F#: 3, Red: 3, Kotlin: 2, Elixir: 2, Go: 2, Ruby: 2, Scala: 2, Rust: 1, TypeScript: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, Cs: 1, Clojure: 1
+- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, F#: 3, Red: 3, Kotlin: 2, Elixir: 2, Go: 2, Ruby: 2, Scala: 2, Rust: 1, TypeScript: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, C#: 1, Clojure: 1
 

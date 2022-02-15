@@ -2,11 +2,12 @@
 require 'yaml'
 
 LANGUAGES = {
+  "cs" => "C#",
   "fsharp" => "F#",
-  "ts" => "TypeScript",
   "javascript" => "JavaScript",
   "rescript" => "ReScript",
-  "sqlite" => "SQLite"
+  "sqlite" => "SQLite",
+  "ts" => "TypeScript",
 }.freeze
 
 def language_label(key)
