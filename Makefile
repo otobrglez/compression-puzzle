@@ -1,12 +1,13 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite clean rye-docker red-docker
+	elixir rescript typescript sqlite clean rye-docker red-docker cs c++
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite rye-docker red-docker c++
+	elixir rescript typescript sqlite rye-docker red-docker cs c++
 
-clean:
+clean: c++-clean
 	rm -rf build *.tasty *.class *.class* \
-		src/ts/*.js src/sqlite/compress_rec.db
+		src/ts/*.js src/sqlite/compress_rec.db \
+		src/cs/*/bin src/cs/*/obj
 
 # Clojure
 clojure:
@@ -18,6 +19,9 @@ fs:
 	./src/fsharp/compress-pk1.fsx
 	./src/fsharp/compress-pk2.fsx
 	./src/fsharp/compress-pk3.fsx
+
+cs:
+	cd src/cs/pp && dotnet run
 
 #Bash
 bash:

@@ -119,3 +119,8 @@ authors:
     profile: https://github.com/hiiamboris
     solutions:
       - src/red/compress-hiiamboris.red
+
+  - name: Peter A. Pirc
+    profile: https://github.com/papsl
+    solutions:
+      - src/cs/pp/Program.cs
