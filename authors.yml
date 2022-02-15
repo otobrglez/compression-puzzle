@@ -90,6 +90,7 @@ authors:
     solutions:
       - src/elixir/compress.exs
       - src/elixir/compress_rec.exs
+      - src/rust/compress.rs
 
   - name: Tit Petrič
     profile: https://github.com/titpetric
