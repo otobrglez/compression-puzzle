@@ -101,3 +101,18 @@ authors:
     profile: https://github.com/uskudnik
     solutions:
       - src/python/compress_urban.py
+
+  - name: Boleslav Březovský
+    profile: http://github.com/rebolek
+    solutions:
+      - src/red/compress-rebolek.red
+
+  - name: Gregg Irwin
+    profile: https://github.com/greggirwin
+    solutions:
+      - src/red/compress-gregg.red
+
+  - name: "Boris"
+    profile: https://github.com/hiiamboris
+    solutions:
+      - src/red/compress-hiiamboris.red
