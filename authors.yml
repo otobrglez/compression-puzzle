@@ -20,9 +20,12 @@ authors:
     profile: https://github.com/refaktor
     solutions:
       - src/sqlite/compress_rec.sql
+      - src/rye/compress_jm_iter.rye
+      - src/rye/compress_jm_iter_steps.rye
       - src/rye/compress_jm_rec.rye
       - src/rye/compress_jm_rec_steps.rye
-  
+      - src/rye/compress_js_hofs.rye
+
   - name: Jernej Virag
     profile: https://github.com/izacus
     solutions:

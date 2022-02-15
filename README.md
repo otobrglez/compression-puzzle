@@ -88,7 +88,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
 |[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
-|[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [SQLite](src/sqlite/compress_rec.sql)|
+|[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_iter.rye](src/rye/compress_jm_iter.rye), [compress_jm_iter_steps.rye](src/rye/compress_jm_iter_steps.rye), [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [compress_js_hofs.rye](src/rye/compress_js_hofs.rye), [SQLite](src/sqlite/compress_rec.sql)|
 |[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
 |[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
 |[Krištof Črnivec](https://github.com/MrChriss) | Ruby: [compress-kbc-0.rb](src/ruby/compress-kbc-0.rb), [compress-kbc-1.rb](src/ruby/compress-kbc-1.rb)|
@@ -105,7 +105,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 
 ## The Stats 📈
 - The number of authors: 20
-- The number of solutions: 38
+- The number of solutions: 41
 - The number of programming languages: 17
-- The language / solutions breakdown: Python: 8, JavaScript: 5, Red: 3, F#: 3, Ruby: 2, Rye: 2, Kotlin: 2, Go: 2, Scala: 2, Elixir: 2, Haskell: 1, Clojure: 1, Rust: 1, TypeScript: 1, ReScript: 1, SQLite: 1, Bash: 1
+- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, Red: 3, F#: 3, Ruby: 2, Kotlin: 2, Go: 2, Scala: 2, Elixir: 2, Haskell: 1, Clojure: 1, Rust: 1, TypeScript: 1, ReScript: 1, SQLite: 1, Bash: 1
 

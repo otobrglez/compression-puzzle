@@ -1,6 +1,8 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
+	elixir rescript typescript sqlite clean rye-docker red-docker
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
+	elixir rescript typescript sqlite rye-docker red-docker
 
 clean:
 	rm -rf build *.tasty *.class *.class* \
