@@ -1,5 +1,9 @@
+/*
+Description: Compress a string, very straightforward implementation without any external libraries.
+Prerequisites: .net 6.0
+Run using: csc compress_pp_v1.cs
+*/
 using System;
-
 static string Compress(string sourceSequence)
 {
     if (string.IsNullOrEmpty(sourceSequence))
