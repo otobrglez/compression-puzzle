@@ -105,6 +105,15 @@ typescript:
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
 
+c++:
+	clang++ -std=c++17 -O3 src/c++/compress_slow.cpp -o src/c++/compress_slow
+	clang++ -std=c++17 -O3 src/c++/compress_fast.cpp -o src/c++/compress_fast
+	./src/c++/compress_slow
+	./src/c++/compress_fast
+
+c++-clean:
+	rm -f src/c++/compress_slow src/c++/compress_fast
+
 update-readme:
 	./updated-authors.rb > README2.md
 	mv README2.md README.md
