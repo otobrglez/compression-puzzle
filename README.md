@@ -52,7 +52,11 @@ make haskell
 make javascript
 make kotlin
 make python
+<<<<<<< HEAD
 make rescript
+=======
+make red-docker
+>>>>>>> f8e88473325996eb7c702b99de9ab438203fc51d
 make ruby
 make rust
 make rye
@@ -82,8 +86,11 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 | Author | Solutions |
 | --- | --- |
 |[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
+|[Boleslav Březovský](http://github.com/rebolek) | [Red](src/red/compress-rebolek.red)|
+|[Boris](https://github.com/hiiamboris) | [Red](src/red/compress-hiiamboris.red)|
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
+|[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
 |[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [SQLite](src/sqlite/compress_rec.sql)|
 |[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
 |[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
@@ -100,8 +107,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 17
-- The number of solutions: 35
-- The number of programming languages: 16
-- The language / solutions breakdown: Python: 8, JavaScript: 5, F#: 3, Elixir: 2, Ruby: 2, Kotlin: 2, Rye: 2, Go: 2, Scala: 2, Rust: 1, TypeScript: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, Clojure: 1
+- The number of authors: 20
+- The number of solutions: 38
+- The number of programming languages: 17
+- The language / solutions breakdown: Python: 8, JavaScript: 5, Red: 3, F#: 3, Ruby: 2, Rye: 2, Kotlin: 2, Go: 2, Scala: 2, Elixir: 2, Haskell: 1, Clojure: 1, Rust: 1, TypeScript: 1, ReScript: 1, SQLite: 1, Bash: 1
 
