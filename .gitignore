@@ -1,4 +1,3 @@
-rye/
 build/
 lib/
 
@@ -6,7 +5,8 @@ lib/
 .merlin
 *.class
 *.tasty
-*.class'
+*.class*
+*~
 
 ## NodeJS
 

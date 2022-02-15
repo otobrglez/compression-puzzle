@@ -1,6 +1,8 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
+	elixir rescript typescript sqlite clean rye-docker red-docker
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
+	elixir rescript typescript sqlite rye-docker red-docker c++
 
 clean:
 	rm -rf build *.tasty *.class *.class* \
@@ -34,7 +36,6 @@ python:
 javascript:
 	node src/javascript/*.js
 
-
 # Ruby
 ruby:
 	ruby src/ruby/compress-kbc-0.rb
@@ -56,38 +57,11 @@ kotlin:
 	kotlinc -script src/kotlin/compress.kts
 	kotlinc -script src/kotlin/mn1024_compress.kts
 
-rye: rye-build
-	./rye-src/rye src/rye/compress_jm_rec.rye
-	./rye-src/rye src/rye/compress_jm_rec_steps.rye
-
-# Rye
-rye-src: GO111MODULE = auto
-rye-src:
-	export GO111MODULE=${GO111MODULE} && \
-	git clone --depth=1 --branch=main https://github.com/refaktor/rye.git rye-src && cd rye-src && \
-		go get -u -v \
-		github.com/refaktor/go-peg \
-		github.com/refaktor/liner \
-		golang.org/x/net/html \
-		github.com/pkg/profile \
-		github.com/pkg/term
-
-rye-build: GO111MODULE = auto
-rye-build: rye-src
-	export GO111MODULE=${GO111MODULE} && \
-		cd rye-src && go build -x -tags "b_tiny" -o rye .
-
-# Red
-red-docker:
-	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
-
 # Haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
 
-rye-clean:
-	rm -rf rye-src
-
+# Rust
 rust:
 	rustc src/rust/compress.rs -O --test --out-dir build/rust && ./build/rust/compress
 
@@ -114,6 +88,17 @@ c++:
 c++-clean:
 	rm -f src/c++/compress_slow src/c++/compress_fast
 
+## Docker based runners
+
+# Rye
+rye-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash refaktorlabs/ryelang:latest /app/src/rye/run-all.sh
+
+# Red
+red-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
+
+# Rebuild the README with stats and attributions
 update-readme:
 	./updated-authors.rb > README2.md
 	mv README2.md README.md
