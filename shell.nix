@@ -5,6 +5,7 @@ stdenv.mkDerivation {
     buildInputs = [
       clojure
       dotnet-sdk_6
+      elixir
       git
       go_1_16
       jdk17_headless
@@ -15,7 +16,11 @@ stdenv.mkDerivation {
       scala
       ghc
       rustc
+      yarn
     ];
     shellHook = ''
+      export PATH="$PWD/node_modules/.bin/:$PATH"
+      mkdir -p $PWD/node_modules/.bin/
+      yarn install
     '';
 }

@@ -1,9 +1,10 @@
-:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust clean
+:PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite clean
 
-run: bash clojure fs go javascript kotlin python ruby scala haskell rust
+run: bash clojure fs go javascript kotlin python ruby scala haskell rust elixir rescript typescript sqlite
 
 clean:
-	rm -rf build *.tasty *.class *.class*
+	rm -rf build *.tasty *.class *.class* \
+		src/ts/*.js src/sqlite/compress_rec.db
 
 # Clojure
 clojure:
@@ -27,12 +28,11 @@ go:
 
 # Python
 python:
-	python3 src/python/compress_*.py
+	find src/python -type f \( -iname "*.py" ! -iname benchmarks.py \) | xargs -n1 python
 
 # JavaScript
 javascript:
 	node src/javascript/*.js
-
 
 # Ruby
 ruby:
@@ -55,10 +55,6 @@ kotlin:
 	kotlinc -script src/kotlin/compress.kts
 	kotlinc -script src/kotlin/mn1024_compress.kts
 
-# Rye
-rye-docker:
-	docker run --rm -v $(PWD):/app --entrypoint /bin/bash refaktorlabs/ryelang:latest /app/src/rye/run-all.sh
-
 # Haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
@@ -66,3 +62,32 @@ haskell:
 # Rust
 rust:
 	rustc src/rust/compress.rs -O --test --out-dir build/rust && ./build/rust/compress
+
+rescript:
+	(cd src/rescript && rescript) && \
+		node src/rescript/lib/**/*.js
+
+elixir:
+	elixir src/elixir/compress.exs
+	elixir src/elixir/compress_rec.exs
+
+typescript: 
+	tsc && node src/ts/*.js
+
+sqlite:
+	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
+
+## Docker based runners
+
+# Rye
+rye-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash refaktorlabs/ryelang:latest /app/src/rye/run-all.sh
+
+# Red
+red-docker:
+	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
+
+# Rebuild the README with stats and attributions
+update-readme:
+	./updated-authors.rb > README2.md
+	mv README2.md README.md

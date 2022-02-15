@@ -45,16 +45,21 @@ To run individual languages use:
 ```bash
 make bash
 make clojure
+make elixir
 make fs
 make go
 make haskell
 make javascript
 make kotlin
 make python
+make red-docker
+make rescript
 make ruby
 make rust
 make rye-docker
 make scala
+make sqlite
+make typescript
 ```
 
 ## Benchmarking
@@ -75,19 +80,32 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 
 ## Authors
 
-- [Andraž Brodnik](http://github.com/brodul)
-- [David Ličen](https://github.com/davision)
-- [Janko Metelko](https://github.com/refaktor)
-- [Jernej Virag](https://github.com/izacus)
-- [Klemen Kogovšek](https://github.com/kkogovsek)
-- [Krištof Črnivec](https://github.com/MrChriss)
-- [Luka Kacil](https://github.com/lknix)
-- [Marek Fajkus](https://github.com/turboMaCk)
-- [Miha Novak](https://github.com/mihanovak1024)
-- [Mitja Živković](https://linkedin.com/in/mitja-živković-367206)
-- [Oto Brglez](https://github.com/otobrglez)
-- [Peter Keše](https://github.com/pkese)
-- [Simon Belak](https://github.com/sbelak)
-- [Simon Žlender](https://github.com/szlend)
-- [Tit Petrič](https://github.com/titpetric)
-- [Urban Škudnik](https://github.com/uskudnik)
+| Author | Solutions |
+| --- | --- |
+|[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
+|[Boleslav Březovský](http://github.com/rebolek) | [Red](src/red/compress-rebolek.red)|
+|[Boris](https://github.com/hiiamboris) | [Red](src/red/compress-hiiamboris.red)|
+|[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
+|[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
+|[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
+|[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [SQLite](src/sqlite/compress_rec.sql)|
+|[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
+|[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
+|[Krištof Črnivec](https://github.com/MrChriss) | Ruby: [compress-kbc-0.rb](src/ruby/compress-kbc-0.rb), [compress-kbc-1.rb](src/ruby/compress-kbc-1.rb)|
+|[Luka Kacil](https://github.com/lknix) | [Bash](src/bash/compress_lk.sh), Python: [compress_luka.py](src/python/compress_luka.py), [compress_luka_faster.py](src/python/compress_luka_faster.py), [compress_luka_rec1.py](src/python/compress_luka_rec1.py), [compress_luka_rec2.py](src/python/compress_luka_rec2.py), [compress_luka_tailrec.py](src/python/compress_luka_tailrec.py)|
+|[Marek Fajkus](https://github.com/turboMaCk) | [Haskell](src/haskell/Compress_turbomack.hs)|
+|[Miha Novak](https://github.com/mihanovak1024) | [Kotlin](src/kotlin/mn1024_compress.kts)|
+|[Mitja Živković](https://linkedin.com/in/mitja-živković-367206) | [Go](src/go/compress_mitja.go)|
+|[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
+|[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
+|[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
+|[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
+|[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
+|[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
+
+## The Stats 📈
+- The number of authors: 20
+- The number of solutions: 38
+- The number of programming languages: 17
+- The language / solutions breakdown: Python: 8, JavaScript: 5, Red: 3, F#: 3, Ruby: 2, Rye: 2, Kotlin: 2, Go: 2, Scala: 2, Elixir: 2, Haskell: 1, Clojure: 1, Rust: 1, TypeScript: 1, ReScript: 1, SQLite: 1, Bash: 1
+
