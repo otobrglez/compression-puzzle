@@ -1,10 +1,10 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite clean rye-docker red-docker cs
+	elixir rescript typescript sqlite clean rye-docker red-docker cs c++
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite rye-docker red-docker cs
+	elixir rescript typescript sqlite rye-docker red-docker cs c++
 
-clean:
+clean: c++-clean
 	rm -rf build *.tasty *.class *.class* \
 		src/ts/*.js src/sqlite/compress_rec.db \
 		src/cs/*/bin src/cs/*/obj
@@ -82,6 +82,15 @@ typescript:
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
+
+c++:
+	clang++ -std=c++17 -O3 src/c++/compress_slow.cpp -o src/c++/compress_slow
+	clang++ -std=c++17 -O3 src/c++/compress_fast.cpp -o src/c++/compress_fast
+	./src/c++/compress_slow
+	./src/c++/compress_fast
+
+c++-clean:
+	rm -f src/c++/compress_slow src/c++/compress_fast
 
 ## Docker based runners
 
