@@ -52,11 +52,8 @@ make haskell
 make javascript
 make kotlin
 make python
-<<<<<<< HEAD
-make rescript
-=======
 make red-docker
->>>>>>> f8e88473325996eb7c702b99de9ab438203fc51d
+make rescript
 make ruby
 make rust
 make rye
