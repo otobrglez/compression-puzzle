@@ -52,9 +52,13 @@ CompressionPuzzle01.class:
 CompressionPuzzle02.class:
 	scalac src/scala/CompressionPuzzle02.scala
 
-scala: CompressionPuzzle01.class CompressionPuzzle02.class
+CompressionPuzzle03.class:
+	scalac src/scala/CompressionPuzzle03.scala
+
+scala: CompressionPuzzle01.class CompressionPuzzle02.class CompressionPuzzle03.class
 	scala CompressionPuzzle01
 	scala CompressionPuzzle02
+	scala CompressionPuzzle03
 
 # Kotlin
 kotlin:

@@ -130,3 +130,8 @@ authors:
     solutions:
       - src/c++/compress_fast.cpp
       - src/c++/compress_slow.cpp
+
+  - name: Bartłomiej Tomala
+    profile: https://github.com/btomala
+    solutions:
+      - src/scala/CompressionPuzzle03.scala
