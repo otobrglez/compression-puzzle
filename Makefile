@@ -100,6 +100,11 @@ c++: cpp-slow cpp-fast
 c++-clean:
 	rm -f src/c++/compress_slow src/c++/compress_fast
 
+# Lua
+lua:
+	lua src/lua/compress.lua
+	lua src/lua/compress-gsub.lua
+
 ## Docker based runners
 
 # Rye
