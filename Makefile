@@ -100,6 +100,10 @@ c++: cpp-slow cpp-fast
 c++-clean:
 	rm -f src/c++/compress_slow src/c++/compress_fast
 
+java:
+	javac -d src/java src/java/Compression.java && \
+        java -cp src/java compression.Compression
+
 ## Docker based runners
 
 # Rye
