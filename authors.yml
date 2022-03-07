@@ -135,3 +135,9 @@ authors:
     profile: https://github.com/btomala
     solutions:
       - src/scala/CompressionPuzzle03.scala
+      
+   - name: Nace Štruc
+     profile: https://github.com/nacestruc
+     solutions:
+      - src/cs/ns/Program.js
+      
