@@ -100,7 +100,8 @@
   },
 
   "files": [
-    "src/ts/compress_go2.ts"
+    "src/ts/compress_go2.ts",
+    "src/ts/compress_mk.ts"
   ],
 
   "exclude": [
