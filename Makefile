@@ -31,6 +31,7 @@ bash:
 go:
 	go run src/go/compress_mitja.go
 	go run src/go/compress_tit.go
+	go run src/go/compress_david.go
 
 # Python
 python:
@@ -81,7 +82,7 @@ elixir:
 	elixir src/elixir/compress.exs
 	elixir src/elixir/compress_rec.exs
 
-typescript: 
+typescript:
 	tsc && node src/ts/*.js
 
 sqlite:

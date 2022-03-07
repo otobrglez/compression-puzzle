@@ -62,7 +62,7 @@ authors:
     profile: https://github.com/mihanovak1024
     solutions:
       - src/kotlin/mn1024_compress.kts
-  
+
   - name: Mitja Živković
     profile: https://linkedin.com/in/mitja-živković-367206
     solutions:
@@ -135,3 +135,8 @@ authors:
     profile: https://github.com/btomala
     solutions:
       - src/scala/CompressionPuzzle03.scala
+
+  - name: David Kuridža
+    profile: https://github.com/davidkuridza
+    solutions:
+      - src/go/compress_david.go
