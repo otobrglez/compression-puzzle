@@ -110,8 +110,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 23
-- The number of solutions: 45
+- The number of authors: 24
+- The number of solutions: 46
 - The number of programming languages: 19
-- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, Scala: 3, Red: 3, F#: 3, Ruby: 2, Kotlin: 2, Go: 2, C++: 2, Elixir: 2, Bash: 1, Clojure: 1, Rust: 1, C#: 1, TypeScript: 1, ReScript: 1, SQLite: 1, Haskell: 1
+- The language / solutions breakdown: Python: 8, Rye: 5, JavaScript: 5, Red: 3, Scala: 3, F#: 3, Ruby: 2, TypeScript: 2, Kotlin: 2, Go: 2, C++: 2, Elixir: 2, Clojure: 1, Rust: 1, C#: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1
 

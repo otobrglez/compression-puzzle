@@ -82,7 +82,8 @@ elixir:
 	elixir src/elixir/compress_rec.exs
 
 typescript: 
-	tsc && node src/ts/*.js
+	yarn run build && \
+		find src/ts -type f \( -iname "*.js" \) | xargs -n1 node
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
