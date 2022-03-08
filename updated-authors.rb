@@ -8,7 +8,8 @@ LANGUAGES = {
   "rescript" => "ReScript",
   "sqlite" => "SQLite",
   "ts" => "TypeScript",
-  "php" => "PHP"
+  "php" => "PHP",
+  "ms-sql" => "MS SQL"
 }.freeze
 
 def language_label(key)

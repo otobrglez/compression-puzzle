@@ -157,13 +157,13 @@ authors:
     solutions:
       - src/javascript/compress_rk.js
       
- - name: Nace Štruc
+  - name: Nace Štruc
     profile: https://github.com/nacestruc
     solutions:
-     - src/cs/ns/Program.js
-     - src/cs/ns2/Program.js
-     - src/cs/ns3/Program.js
-     - src/sql/compression-puzzle.sql
+      - src/cs/ns/Program.js
+      - src/cs/ns2/Program.js
+      - src/cs/ns3/Program.js
+      - src/ms-sql/compression-puzzle.sql
 
   - name: cjenp
     profile: https://github.com/cjenp
