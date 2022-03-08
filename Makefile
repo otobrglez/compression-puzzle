@@ -38,7 +38,7 @@ python:
 
 # JavaScript
 javascript:
-	node src/javascript/*.js
+	find src/javascript -type f \( -iname "*.js" \) | xargs -n1 node
 
 # Ruby
 ruby:
