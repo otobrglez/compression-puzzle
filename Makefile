@@ -31,6 +31,7 @@ bash:
 go:
 	go run src/go/compress_mitja.go
 	go run src/go/compress_tit.go
+	go run src/go/compress_david.go
 
 # Python
 python:

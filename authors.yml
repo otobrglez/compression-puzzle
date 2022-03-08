@@ -136,6 +136,11 @@ authors:
     solutions:
       - src/scala/CompressionPuzzle03.scala
 
+  - name: David Kuridža
+    profile: https://github.com/davidkuridza
+    solutions:
+      - src/go/compress_david.go
+
   - name: Miha Kloar
     profile: https://github.com/mkloar
     solutions:
