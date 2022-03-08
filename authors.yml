@@ -156,3 +156,8 @@ authors:
     profile: https://github.com/rokkreslincom
     solutions:
       - src/javascript/compress_rk.js
+
+  - name: cjenp
+    profile: https://github.com/cjenp
+    solutions:
+      - src/cs/cjenp/Program.cs    

@@ -22,6 +22,7 @@ fs:
 
 cs:
 	cd src/cs/pp && dotnet run
+	cd src/cs/cjenp && dotnet run
 
 #Bash
 bash:

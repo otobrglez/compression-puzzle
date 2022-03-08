@@ -99,10 +99,11 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
+|[cjenp](https://github.com/cjenp) | [C#](src/cs/cjenp/Program.cs)|
 
 ## The Stats 📈
-- The number of authors: 27
-- The number of solutions: 50
+- The number of authors: 28
+- The number of solutions: 51
 - The number of programming languages: 21
-- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, Elixir: 2, ReScript: 1, Bash: 1, Haskell: 1, Rust: 1, C#: 1, Swift: 1, SQLite: 1, PHP: 1, Clojure: 1
+- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, C#: 2, Elixir: 2, Swift: 1, Haskell: 1, Clojure: 1, Rust: 1, SQLite: 1, PHP: 1, ReScript: 1, Bash: 1
 
