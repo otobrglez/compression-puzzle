@@ -141,4 +141,5 @@ authors:
      solutions:
       - src/cs/ns/Program.js
       - src/cs/ns2/Program.js
+      - src/sql/compression-puzzle.sql
       
