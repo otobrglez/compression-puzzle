@@ -2,7 +2,7 @@
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast
+	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php
 
 clean: c++-clean
 	rm -rf build *.tasty *.class *.class* \
@@ -22,6 +22,10 @@ fs:
 
 cs:
 	cd src/cs/pp && dotnet run
+	cd src/cs/cjenp && dotnet run
+	cd src/cs/ns && dotnet run
+	cd src/cs/ns2 && dotnet run
+	cd src/cs/ns3 && dotnet run
 
 #Bash
 bash:
@@ -31,6 +35,7 @@ bash:
 go:
 	go run src/go/compress_mitja.go
 	go run src/go/compress_tit.go
+	go run src/go/compress_david.go
 
 # Python
 python:
@@ -38,7 +43,7 @@ python:
 
 # JavaScript
 javascript:
-	node src/javascript/*.js
+	find src/javascript -type f \( -iname "*.js" \) | xargs -n1 node
 
 # Ruby
 ruby:
@@ -82,7 +87,8 @@ elixir:
 	elixir src/elixir/compress_rec.exs
 
 typescript: 
-	tsc && node src/ts/*.js
+	yarn run build && \
+		find src/ts -type f \( -iname "*.js" \) | xargs -n1 node
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
@@ -104,6 +110,11 @@ java:
 	javac -d src/java src/java/Compression.java && \
         java -cp src/java compression.Compression
 
+# Lua
+lua:
+	lua src/lua/compress.lua
+	lua src/lua/compress-gsub.lua
+
 ## Docker based runners
 
 # Rye
@@ -113,6 +124,12 @@ rye-docker:
 # Red
 red-docker:
 	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
+
+swift:
+	swift src/swift/compress_extension_grandfelix.swift
+
+php:
+	php -f src/php/compress_grandfelix.php
 
 # Rebuild the README with stats and attributions
 update-readme:
