@@ -91,7 +91,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Miha Novak](https://github.com/mihanovak1024) | [Kotlin](src/kotlin/mn1024_compress.kts)|
 |[Milan Slunečko](https://github.com/smi11) | Lua: [compress.lua](src/lua/compress.lua), [compress-gsub.lua](src/lua/compress-gsub.lua)|
 |[Mitja Živković](https://linkedin.com/in/mitja-živković-367206) | [Go](src/go/compress_mitja.go)|
-|[Nace Štruc](https://github.com/nacestruc) | C#: [Program.js](src/cs/ns/Program.js), [Program.js](src/cs/ns2/Program.js), [Program.js](src/cs/ns3/Program.js), [MS SQL](src/ms-sql/compression-puzzle.sql)|
+|[Nace Štruc](https://github.com/nacestruc) | C#: [Program.cs](src/cs/ns/Program.cs), [Program.cs](src/cs/ns2/Program.cs), [Program.cs](src/cs/ns3/Program.cs), [MS SQL](src/ms-sql/compression-puzzle.sql)|
 |[Nejc Ilenič](https://github.com/inejc) | C++: [compress_fast.cpp](src/c++/compress_fast.cpp), [compress_slow.cpp](src/c++/compress_slow.cpp)|
 |[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
 |[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|

@@ -160,9 +160,9 @@ authors:
   - name: Nace Štruc
     profile: https://github.com/nacestruc
     solutions:
-      - src/cs/ns/Program.js
-      - src/cs/ns2/Program.js
-      - src/cs/ns3/Program.js
+      - src/cs/ns/Program.cs
+      - src/cs/ns2/Program.cs
+      - src/cs/ns3/Program.cs
       - src/ms-sql/compression-puzzle.sql
 
   - name: cjenp
