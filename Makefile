@@ -112,6 +112,12 @@ rye-docker:
 red-docker:
 	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
 
+swift:
+	swift src/swift/compress_extension_grandfelix.swift
+
+php:
+	php -f src/php/compress_grandfelix.php
+
 # Rebuild the README with stats and attributions
 update-readme:
 	./updated-authors.rb > README2.md

@@ -136,6 +136,12 @@ authors:
     solutions:
       - src/scala/CompressionPuzzle03.scala
 
+  - name: Blaž Smolnikar
+    profile: https://github.com/GrandFelix
+    solutions:
+      - src/swift/compress_extension_grandfelix.swift
+      - src/php/compress_grandfelix.php
+
   - name: David Kuridža
     profile: https://github.com/davidkuridza
     solutions:

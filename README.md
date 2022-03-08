@@ -68,7 +68,7 @@ make typescript
 
 Although benchmarking is not the primary goal of this project; some authors are really kean to measure the performance of their solutions and compare them to others. 
 
-These languages have benchmarking suites made and feel free to give the ma try.
+These languages have benchmarking suites made and feel free to give them a try.
 
 ```bash
 # Python
