@@ -48,20 +48,8 @@ make c++
 make clojure
 make cs
 make elixir
-make fs
-make go
-make haskell
-make javascript
-make kotlin
-make python
-make red-docker
-make rescript
-make ruby
-make rust
-make rye-docker
-make scala
-make sqlite
-make typescript
+# ...
+make php
 ```
 
 ## Benchmarking
@@ -86,6 +74,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 | --- | --- |
 |[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
 |[Bartłomiej Tomala](https://github.com/btomala) | [Scala](src/scala/CompressionPuzzle03.scala)|
+|[Blaž Smolnikar](https://github.com/GrandFelix) | [PHP](src/php/compress_grandfelix.php), [Swift](src/swift/compress_extension_grandfelix.swift)|
 |[Boleslav Březovský](http://github.com/rebolek) | [Red](src/red/compress-rebolek.red)|
 |[Boris](https://github.com/hiiamboris) | [Red](src/red/compress-hiiamboris.red)|
 |[David Kuridža](https://github.com/davidkuridza) | [Go](src/go/compress_david.go)|
@@ -112,8 +101,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 26
-- The number of solutions: 48
-- The number of programming languages: 19
-- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, F#: 3, Scala: 3, Go: 3, Red: 3, Elixir: 2, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, Rust: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, C#: 1, Clojure: 1
+- The number of authors: 27
+- The number of solutions: 50
+- The number of programming languages: 21
+- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, Elixir: 2, ReScript: 1, Bash: 1, Haskell: 1, Rust: 1, C#: 1, Swift: 1, SQLite: 1, PHP: 1, Clojure: 1
 

@@ -17,6 +17,7 @@ stdenv.mkDerivation {
       ghc
       rustc
       yarn
+      php
     ];
     shellHook = ''
       export PATH="$PWD/node_modules/.bin/:$PATH"

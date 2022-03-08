@@ -2,7 +2,7 @@
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast
+	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php
 
 clean: c++-clean
 	rm -rf build *.tasty *.class *.class* \
