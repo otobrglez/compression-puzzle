@@ -88,6 +88,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Bartłomiej Tomala](https://github.com/btomala) | [Scala](src/scala/CompressionPuzzle03.scala)|
 |[Boleslav Březovský](http://github.com/rebolek) | [Red](src/red/compress-rebolek.red)|
 |[Boris](https://github.com/hiiamboris) | [Red](src/red/compress-hiiamboris.red)|
+|[David Kuridža](https://github.com/davidkuridza) | [Go](src/go/compress_david.go)|
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
 |[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
@@ -111,8 +112,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 25
-- The number of solutions: 47
+- The number of authors: 26
+- The number of solutions: 48
 - The number of programming languages: 19
-- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, Red: 3, Scala: 3, F#: 3, Ruby: 2, TypeScript: 2, Kotlin: 2, Go: 2, C++: 2, Elixir: 2, Clojure: 1, Rust: 1, C#: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1
+- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, F#: 3, Scala: 3, Go: 3, Red: 3, Elixir: 2, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, Rust: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, C#: 1, Clojure: 1
 
