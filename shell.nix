@@ -3,6 +3,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
+      lua
       clojure
       dotnet-sdk_6
       elixir

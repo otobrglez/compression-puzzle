@@ -103,8 +103,8 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[cjenp](https://github.com/cjenp) | [C#](src/cs/cjenp/Program.cs)|
 
 ## The Stats 📈
-- The number of authors: 28
-- The number of solutions: 51
-- The number of programming languages: 21
-- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Kotlin: 2, TypeScript: 2, Ruby: 2, C++: 2, C#: 2, Elixir: 2, Swift: 1, Haskell: 1, Clojure: 1, Rust: 1, SQLite: 1, PHP: 1, ReScript: 1, Bash: 1
+- The number of authors: 29
+- The number of solutions: 53
+- The number of programming languages: 22
+- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, F#: 3, Go: 3, Scala: 3, Red: 3, Lua: 2, Ruby: 2, C#: 2, Kotlin: 2, C++: 2, TypeScript: 2, Elixir: 2, Rust: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, Clojure: 1
 

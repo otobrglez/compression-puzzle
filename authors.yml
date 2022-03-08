@@ -161,3 +161,10 @@ authors:
     profile: https://github.com/cjenp
     solutions:
       - src/cs/cjenp/Program.cs    
+
+  - name: Milan Slunečko
+    profile: https://github.com/smi11
+    solutions:
+      - src/lua/compress.lua
+      - src/lua/compress-gsub.lua
+
