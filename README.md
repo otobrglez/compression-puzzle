@@ -104,6 +104,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
 |[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
+|[Rok Kreslin](https://github.com/rokkreslincom) | [JavaScript](src/javascript/compress_rk.js)|
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
