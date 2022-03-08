@@ -62,7 +62,7 @@ authors:
     profile: https://github.com/mihanovak1024
     solutions:
       - src/kotlin/mn1024_compress.kts
-  
+
   - name: Mitja Živković
     profile: https://linkedin.com/in/mitja-živković-367206
     solutions:
@@ -141,3 +141,18 @@ authors:
     solutions:
       - src/swift/compress_extension_grandfelix.swift
       - src/php/compress_grandfelix.php
+
+  - name: David Kuridža
+    profile: https://github.com/davidkuridza
+    solutions:
+      - src/go/compress_david.go
+
+  - name: Miha Kloar
+    profile: https://github.com/mkloar
+    solutions:
+      - src/ts/compress_mk.ts
+
+  - name: Rok Kreslin
+    profile: https://github.com/rokkreslincom
+    solutions:
+      - src/javascript/compress_rk.js
