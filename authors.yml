@@ -140,3 +140,13 @@ authors:
     profile: https://github.com/davidkuridza
     solutions:
       - src/go/compress_david.go
+
+  - name: Miha Kloar
+    profile: https://github.com/mkloar
+    solutions:
+      - src/ts/compress_mk.ts
+
+  - name: Rok Kreslin
+    profile: https://github.com/rokkreslincom
+    solutions:
+      - src/javascript/compress_rk.js

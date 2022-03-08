@@ -39,7 +39,7 @@ python:
 
 # JavaScript
 javascript:
-	node src/javascript/*.js
+	find src/javascript -type f \( -iname "*.js" \) | xargs -n1 node
 
 # Ruby
 ruby:
@@ -82,8 +82,9 @@ elixir:
 	elixir src/elixir/compress.exs
 	elixir src/elixir/compress_rec.exs
 
-typescript:
-	tsc && node src/ts/*.js
+typescript: 
+	yarn run build && \
+		find src/ts -type f \( -iname "*.js" \) | xargs -n1 node
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
