@@ -3,6 +3,7 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
+      lua
       clojure
       dotnet-sdk_6
       elixir
@@ -17,6 +18,7 @@ stdenv.mkDerivation {
       ghc
       rustc
       yarn
+      php
     ];
     shellHook = ''
       export PATH="$PWD/node_modules/.bin/:$PATH"
