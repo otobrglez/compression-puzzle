@@ -1,6 +1,8 @@
 package compression;
 
 import java.util.Arrays;
+import java.util.Objects;
+import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -329,24 +331,31 @@ public class Compression {
         }
     }
 
+    // tests
+
+    private static void test(Function<String, String> compressFn) {
+        test("ABCDE", "1A1B1C1D1E", compressFn);
+        test("ABBCCCDDDDEEEEE", "1A2B3C4D5E", compressFn);
+        test("AAABCCCDEEE", "3A1B3C1D3E", compressFn);
+    }
+
+    private static void test(String plain, String expectedCompressed, Function<String, String> compressFn) {
+        var compressed = compressFn.apply(plain);
+        System.out.println(plain + " -> " + compressed);
+        if (!Objects.equals(expectedCompressed, compressed)) {
+            throw new AssertionError("Expected `" + expectedCompressed + "` but got `" + compressed + "`");
+        }
+    }
+
     public static void main(String[] args) {
-        System.out.println(compress1("ABCDE"));
-        System.out.println(compress1("ABBCCCDDDDEEEEE"));
-        System.out.println(compress1parallel("ABCDE"));
-        System.out.println(compress1parallel("ABBCCCDDDDEEEEE"));
-        System.out.println(compress2("ABCDE"));
-        System.out.println(compress2("ABBCCCDDDDEEEEE"));
-        System.out.println(compress3("ABCDE"));
-        System.out.println(compress3("ABBCCCDDDDEEEEE"));
-        System.out.println(compress3parallel("ABCDE"));
-        System.out.println(compress3parallel("ABBCCCDDDDEEEEE"));
-        System.out.println(compress4("ABCDE"));
-        System.out.println(compress4("ABBCCCDDDDEEEEE"));
-        System.out.println(compress4parallel("ABCDE"));
-        System.out.println(compress4parallel("ABBCCCDDDDEEEEE"));
-        System.out.println(compress5("ABCDE"));
-        System.out.println(compress5("ABBCCCDDDDEEEEE"));
-        System.out.println(compress5parallel("ABCDE"));
-        System.out.println(compress5parallel("ABBCCCDDDDEEEEE"));
+        test(Compression::compress1);
+        test(Compression::compress1parallel);
+        test(Compression::compress2);
+        test(Compression::compress3);
+        test(Compression::compress3parallel);
+        test(Compression::compress4);
+        test(Compression::compress4parallel);
+        test(Compression::compress5);
+        test(Compression::compress5parallel);
     }
 }
