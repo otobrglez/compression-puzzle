@@ -93,19 +93,20 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Mitja Živković](https://linkedin.com/in/mitja-živković-367206) | [Go](src/go/compress_mitja.go)|
 |[Nace Štruc](https://github.com/nacestruc) | C#: [Program.cs](src/cs/ns/Program.cs), [Program.cs](src/cs/ns2/Program.cs), [Program.cs](src/cs/ns3/Program.cs), [MS SQL](src/ms-sql/compression-puzzle.sql)|
 |[Nejc Ilenič](https://github.com/inejc) | C++: [compress_fast.cpp](src/c++/compress_fast.cpp), [compress_slow.cpp](src/c++/compress_slow.cpp)|
+|[Nejc Pušnik](https://github.com/cjenp) | [C#](src/cs/cjenp/Program.cs)|
 |[Oto Brglez](https://github.com/otobrglez) | [JavaScript](src/javascript/compress_ob.js), [Python](src/python/compress_ob.py), Scala: [CompressionPuzzle01.scala](src/scala/CompressionPuzzle01.scala), [CompressionPuzzle02.scala](src/scala/CompressionPuzzle02.scala)|
 |[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
+|[Peter Levart](https://github.com/plevart) | [Java](src/java/Compression.java)|
 |[Rok Kreslin](https://github.com/rokkreslincom) | [JavaScript](src/javascript/compress_rk.js)|
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
-|[cjenp](https://github.com/cjenp) | [C#](src/cs/cjenp/Program.cs)|
 
 ## The Stats 📈
-- The number of authors: 30
-- The number of solutions: 57
-- The number of programming languages: 23
-- The language / solutions breakdown: Python: 8, JavaScript: 6, C#: 5, Rye: 5, Go: 3, F#: 3, Scala: 3, Red: 3, C++: 2, TypeScript: 2, Kotlin: 2, Lua: 2, Ruby: 2, Elixir: 2, Rust: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, Clojure: 1
+- The number of authors: 31
+- The number of solutions: 58
+- The number of programming languages: 24
+- The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, C#: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Ruby: 2, TypeScript: 2, Kotlin: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, Clojure: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, Java: 1, ReScript: 1, SQLite: 1, Haskell: 1
 

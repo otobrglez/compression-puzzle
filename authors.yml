@@ -165,7 +165,7 @@ authors:
       - src/cs/ns3/Program.cs
       - src/ms-sql/compression-puzzle.sql
 
-  - name: cjenp
+  - name: Nejc Pušnik
     profile: https://github.com/cjenp
     solutions:
       - src/cs/cjenp/Program.cs    
@@ -176,3 +176,7 @@ authors:
       - src/lua/compress.lua
       - src/lua/compress-gsub.lua
 
+  - name: Peter Levart
+    profile: https://github.com/plevart
+    solutions:
+      - src/java/Compression.java
