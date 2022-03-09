@@ -144,3 +144,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+src/cs/ns2/compression-puzzle-ns2/compression-puzzle-ns2.sln
