@@ -110,5 +110,5 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 - The number of programming languages: 24
 - The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, C#: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Ruby: 2, TypeScript: 2, Kotlin: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, Clojure: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, Java: 1, ReScript: 1, SQLite: 1, Haskell: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:8,6,5,5,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C#|Scala|F#|Red|Go|Ruby|TypeScript|Kotlin|Lua|C++|Elixir|Bash|Clojure|PHP|MS SQL|Rust|Swift|Java|ReScript|SQLite|Haskell)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:8,6,5,5,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Scala|F%23|Red|Go|Ruby|TypeScript|Kotlin|Lua|C%2B%2B|Elixir|Bash|Clojure|PHP|MS+SQL|Rust|Swift|Java|ReScript|SQLite|Haskell)
 

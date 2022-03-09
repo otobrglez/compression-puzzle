@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'yaml'
+require 'cgi'
 
 LANGUAGES = {
   "cs" => "C#",
@@ -55,7 +56,7 @@ def render_chart(authors)
     .map {|k,v| [language_label(k),v]}
     .sort_by { |k,v| -v + k.to_i }
 
-  languages = stats.map(&:first).join("|")
+  languages = stats.map(&:first).map {|l| CGI.escape(l) }.join("|")
   sizes = stats.map(&:last).join(",")
 
   "![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:#{sizes}&cht=p3&chl=#{languages})"
