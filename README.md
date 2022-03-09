@@ -1,3 +1,34 @@
+{:name=>"Andraž Brodnik", :profile=>"http://github.com/brodul", :solutions=>["src/python/compress_brodul.py"]}
+{:name=>"Bartłomiej Tomala", :profile=>"https://github.com/btomala", :solutions=>["src/scala/CompressionPuzzle03.scala"]}
+{:name=>"Blaž Smolnikar", :profile=>"https://github.com/GrandFelix", :solutions=>["src/swift/compress_extension_grandfelix.swift", "src/php/compress_grandfelix.php"]}
+{:name=>"Boleslav Březovský", :profile=>"http://github.com/rebolek", :solutions=>["src/red/compress-rebolek.red"]}
+{:name=>"Boris", :profile=>"https://github.com/hiiamboris", :solutions=>["src/red/compress-hiiamboris.red"]}
+{:name=>"David Kuridža", :profile=>"https://github.com/davidkuridza", :solutions=>["src/go/compress_david.go"]}
+{:name=>"David Ličen", :profile=>"https://github.com/davision", :solutions=>["src/javascript/compress_da01.js", "src/javascript/compress_da02.js"]}
+{:name=>"Goran Kodrun", :profile=>"https://github.com/liveandie", :solutions=>["src/javascript/compress_go.js", "src/ts/compress_go2.ts"]}
+{:name=>"Gregg Irwin", :profile=>"https://github.com/greggirwin", :solutions=>["src/red/compress-gregg.red"]}
+{:name=>"Janko Metelko", :profile=>"https://github.com/refaktor", :solutions=>["src/sqlite/compress_rec.sql", "src/rye/compress_jm_iter.rye", "src/rye/compress_jm_iter_steps.rye", "src/rye/compress_jm_rec.rye", "src/rye/compress_jm_rec_steps.rye", "src/rye/compress_js_hofs.rye"]}
+{:name=>"Jernej Virag", :profile=>"https://github.com/izacus", :solutions=>["src/kotlin/compress.kts"]}
+{:name=>"Klemen Kogovšek", :profile=>"https://github.com/kkogovsek", :solutions=>["src/rescript/PatternMatchCompress.res", "src/javascript/compress_reduce_klemen.js"]}
+{:name=>"Krištof Črnivec", :profile=>"https://github.com/MrChriss", :solutions=>["src/ruby/compress-kbc-0.rb", "src/ruby/compress-kbc-1.rb"]}
+{:name=>"Luka Kacil", :profile=>"https://github.com/lknix", :solutions=>["src/python/compress_luka.py", "src/python/compress_luka_faster.py", "src/python/compress_luka_rec1.py", "src/python/compress_luka_rec2.py", "src/python/compress_luka_tailrec.py", "src/bash/compress_lk.sh"]}
+{:name=>"Marek Fajkus", :profile=>"https://github.com/turboMaCk", :solutions=>["src/haskell/Compress_turbomack.hs"]}
+{:name=>"Miha Kloar", :profile=>"https://github.com/mkloar", :solutions=>["src/ts/compress_mk.ts"]}
+{:name=>"Miha Novak", :profile=>"https://github.com/mihanovak1024", :solutions=>["src/kotlin/mn1024_compress.kts"]}
+{:name=>"Milan Slunečko", :profile=>"https://github.com/smi11", :solutions=>["src/lua/compress.lua", "src/lua/compress-gsub.lua"]}
+{:name=>"Mitja Živković", :profile=>"https://linkedin.com/in/mitja-živković-367206", :solutions=>["src/go/compress_mitja.go"]}
+{:name=>"Nace Štruc", :profile=>"https://github.com/nacestruc", :solutions=>["src/cs/ns/Program.cs", "src/cs/ns2/Program.cs", "src/cs/ns3/Program.cs", "src/ms-sql/compression-puzzle.sql"]}
+{:name=>"Nejc Ilenič", :profile=>"https://github.com/inejc", :solutions=>["src/c++/compress_fast.cpp", "src/c++/compress_slow.cpp"]}
+{:name=>"Nejc Pušnik", :profile=>"https://github.com/cjenp", :solutions=>["src/cs/cjenp/Program.cs"]}
+{:name=>"Oto Brglez", :profile=>"https://github.com/otobrglez", :solutions=>["src/scala/CompressionPuzzle01.scala", "src/scala/CompressionPuzzle02.scala", "src/python/compress_ob.py", "src/javascript/compress_ob.js"]}
+{:name=>"Peter A. Pirc", :profile=>"https://github.com/papsl", :solutions=>["src/cs/pp/Program.cs"]}
+{:name=>"Peter Keše", :profile=>"https://github.com/pkese", :solutions=>["src/fsharp/compress-pk1.fsx", "src/fsharp/compress-pk2.fsx", "src/fsharp/compress-pk3.fsx"]}
+{:name=>"Peter Levart", :profile=>"https://github.com/plevart", :solutions=>["src/java/Compression.java"]}
+{:name=>"Rok Kreslin", :profile=>"https://github.com/rokkreslincom", :solutions=>["src/javascript/compress_rk.js"]}
+{:name=>"Simon Belak", :profile=>"https://github.com/sbelak", :solutions=>["src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj"]}
+{:name=>"Simon Žlender", :profile=>"https://github.com/szlend", :solutions=>["src/elixir/compress.exs", "src/elixir/compress_rec.exs", "src/rust/compress.rs"]}
+{:name=>"Tit Petrič", :profile=>"https://github.com/titpetric", :solutions=>["src/go/compress_tit.go"]}
+{:name=>"Urban Škudnik", :profile=>"https://github.com/uskudnik", :solutions=>["src/python/compress_urban.py"]}
 # The Compression Puzzle
 
 ![GitHub Actions Status](https://github.com/otobrglez/compression-puzzle/actions/workflows/test.yml/badge.svg)
@@ -109,4 +140,6 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 - The number of solutions: 58
 - The number of programming languages: 24
 - The language / solutions breakdown: Python: 8, JavaScript: 6, Rye: 5, C#: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Ruby: 2, TypeScript: 2, Kotlin: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, Clojure: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, Java: 1, ReScript: 1, SQLite: 1, Haskell: 1
+
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:8,6,5,5,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C#|Scala|F#|Red|Go|Ruby|TypeScript|Kotlin|Lua|C++|Elixir|Bash|Clojure|PHP|MS SQL|Rust|Swift|Java|ReScript|SQLite|Haskell)
 

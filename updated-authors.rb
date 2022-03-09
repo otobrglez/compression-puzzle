@@ -50,6 +50,17 @@ def render_groups(groups)
 end
 
 
+def render_chart(authors)
+  stats = authors.map {|a| a[:solutions].map {|s| s.split('/')[1] } }.flatten.tally
+    .map {|k,v| [language_label(k),v]}
+    .sort_by { |k,v| -v + k.to_i }
+
+  languages = stats.map(&:first).join("|")
+  sizes = stats.map(&:last).join(",")
+
+  "![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:#{sizes}&cht=p3&chl=#{languages})"
+end
+
 def render(authors)
   out = "## Authors\n\n"
   out += "| Author | Solutions |\n"
@@ -65,9 +76,10 @@ def render(authors)
   out += "- The language / solutions breakdown: "
   out += authors.map {|a| a[:solutions].map {|s| s.split('/')[1] } }.flatten.tally
     .map {|k,v| [language_label(k),v]}
-    .sort_by { |k,v| -v }
+    .sort_by { |k,v| -v + k.to_i }
     .map { |k,v| "#{k}: #{v}"}
     .join(", ")
+  out += "\n\n" + render_chart(authors)
   out + "\n\n"
 end
 
