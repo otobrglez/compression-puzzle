@@ -185,3 +185,8 @@ authors:
     profile: https://github.com/romunov
     solutions:
       - src/r/compress_romunov.R
+
+  - name: Aleš Justin
+    profile: https://github.com/alesj
+    solutions:
+      - src/java/Compression.java
