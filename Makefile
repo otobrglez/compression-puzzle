@@ -48,7 +48,7 @@ javascript:
 	find src/javascript -type f \( -iname "*.js" \) | xargs -n1 node
 
 # R
-  find src/r -type f \( -iname "*.R") | xargs -n1 Rscript
+  find src/r -type f \( -iname "*.R" \) | xargs -n1 Rscript
   
 # Ruby
 ruby:
