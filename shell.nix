@@ -3,22 +3,23 @@ with import <nixpkgs> {};
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
-      lua
       clojure
       dotnet-sdk_6
       elixir
+      ghc
       git
       go_1_16
       jdk17_headless
       kotlin
+      lua
       nodejs
-      python3
-      ruby_3_0
-      scala
-      ghc
-      rustc
-      yarn
       php
+      python3
+      R
+      ruby_3_0
+      rustc
+      scala
+      yarn
     ];
     shellHook = ''
       export PATH="$PWD/node_modules/.bin/:$PATH"

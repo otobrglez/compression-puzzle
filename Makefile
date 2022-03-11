@@ -1,10 +1,10 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
-	Rscript
+	r
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
-	Rscript
+	r
 
 clean: c++-clean
 	rm -rf build *.tasty *.class *.class* \
@@ -48,7 +48,8 @@ javascript:
 	find src/javascript -type f \( -iname "*.js" \) | xargs -n1 node
 
 # R
-  find src/r -type f \( -iname "*.R") | xargs -n1 Rscript
+r:
+	find src/r -type f \( -iname "*.R" \) | xargs -n1 Rscript
   
 # Ruby
 ruby:

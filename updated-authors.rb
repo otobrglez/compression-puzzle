@@ -10,7 +10,8 @@ LANGUAGES = {
   "sqlite" => "SQLite",
   "ts" => "TypeScript",
   "php" => "PHP",
-  "ms-sql" => "MS SQL"
+  "ms-sql" => "MS SQL",
+  "r" => "R"
 }.freeze
 
 def language_label(key)
