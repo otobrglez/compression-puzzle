@@ -1,5 +1,7 @@
 # The Compression Puzzle
 
+![The Compression Puzzle logo](./compression-puzzle.png)
+
 ![GitHub Actions Status](https://github.com/otobrglez/compression-puzzle/actions/workflows/test.yml/badge.svg)
 
 One lovely Friday we were faced with this nice yet intriguing programming puzzle.
