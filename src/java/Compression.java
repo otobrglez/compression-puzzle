@@ -9,6 +9,7 @@ import java.util.stream.IntStream;
 
 /**
  * @author peter.levart (at) gmail.com
+ * @author ales.justin (at) gmail.com
  */
 public class Compression {
 
@@ -331,6 +332,27 @@ public class Compression {
         }
     }
 
+    // simple straight fwd solution
+
+    public static String compress6(String input) {
+        String result = "";
+        int n = 0;
+        char[] chars = input.toCharArray();
+        char prev = chars[0];
+        for (char c : chars) {
+            if (c != prev) {
+                result += n;
+                result += prev;
+                n = 0;
+                prev = c;
+            }
+            n++;
+        }
+        result += n;
+        result += prev;
+        return result;
+    }
+
     // tests
 
     private static void test(Function<String, String> compressFn) {
@@ -357,5 +379,6 @@ public class Compression {
         test(Compression::compress4parallel);
         test(Compression::compress5);
         test(Compression::compress5parallel);
+        test(Compression::compress6);
     }
 }
