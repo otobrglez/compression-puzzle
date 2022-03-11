@@ -180,3 +180,9 @@ authors:
     profile: https://github.com/plevart
     solutions:
       - src/java/Compression.java
+
+  - name: Aleš Justin
+    profile: https://github.com/alesj
+    solutions:
+      - src/java/Compression.java
+      
