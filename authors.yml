@@ -180,9 +180,13 @@ authors:
     profile: https://github.com/plevart
     solutions:
       - src/java/Compression.java
+      
+  - name: Roman Luštrik
+    profile: https://github.com/romunov
+    solutions:
+      - src/r/compress_romunov.R
 
   - name: Aleš Justin
     profile: https://github.com/alesj
     solutions:
       - src/java/Compression.java
-      
