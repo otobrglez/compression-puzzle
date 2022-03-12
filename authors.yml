@@ -185,6 +185,7 @@ authors:
     profile: https://github.com/romunov
     solutions:
       - src/r/compress_romunov.R
+      - src/python/compress_romunov.py
 
   - name: Aleš Justin
     profile: https://github.com/alesj
