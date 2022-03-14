@@ -1,12 +1,12 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
-	r
+	r c
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
-	r
+	r c
 
-clean: c++-clean
+clean: c++-clean c-clean
 	rm -rf build *.tasty *.class *.class* \
 		src/ts/*.js src/sqlite/compress_rec.db \
 		src/cs/*/bin src/cs/*/obj
@@ -111,6 +111,13 @@ c++: cpp-slow cpp-fast
 
 c++-clean:
 	rm -f src/c++/compress_slow src/c++/compress_fast
+
+c:
+	gcc src/c/tomaz.c -o src/c/tomaz && \
+		./src/c/tomaz
+
+c-clean:
+	rm -rf ./src/c/tomaz
 
 java:
 	javac -d src/java src/java/Compression.java && \
