@@ -196,3 +196,8 @@ authors:
     profile: https://github.com/tstih
     solutions:
       - src/c/tomaz.c    
+
+  - name: Rob Cole
+    profile: https://github.com/robcole
+    solutions:
+      - src/crystal/compress_kbc_0.cr

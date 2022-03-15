@@ -16,6 +16,11 @@ clojure:
 	cd src/clojure/clojpression-puzzle && \
 		clj -X clojpression-puzzle/run
 
+# Crystal
+crystal:
+	cd src/crystal && \
+		crystal run compress_kbc_0.cr
+
 # F#
 fs:
 	./src/fsharp/compress-pk1.fsx

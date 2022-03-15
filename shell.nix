@@ -4,6 +4,7 @@ stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
       clojure
+      crystal
       dotnet-sdk_6
       elixir
       ghc
