@@ -102,7 +102,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
 |[Peter Levart](https://github.com/plevart) | [Java](src/java/Compression.java)|
 |[Rok Kreslin](https://github.com/rokkreslincom) | [JavaScript](src/javascript/compress_rk.js)|
-|[Roman Luštrik](https://github.com/romunov) | [R](src/r/compress_romunov.R)|
+|[Roman Luštrik](https://github.com/romunov) | [R](src/r/compress_romunov.R), [Python](src/python/compression_romunov.py)|
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
@@ -110,6 +110,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
+
 - The number of authors: 34
 - The number of solutions: 61
 - The number of programming languages: 26
