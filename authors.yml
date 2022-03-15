@@ -191,3 +191,8 @@ authors:
     profile: https://github.com/alesj
     solutions:
       - src/java/Compression.java
+
+  - name: Tomaž Štih
+    profile: https://github.com/tstih
+    solutions:
+      - src/c/tomaz.c    

@@ -106,13 +106,15 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
+|[Tomaž Štih](https://github.com/tstih) | [C](src/c/tomaz.c)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 33
-- The number of solutions: 61
-- The number of programming languages: 25
-- The language / solutions breakdown: Python: 9, JavaScript: 6, Rye: 5, C#: 5, Red: 3, F#: 3, Scala: 3, Go: 3, Elixir: 2, Java: 2, Lua: 2, Kotlin: 2, Ruby: 2, TypeScript: 2, C++: 2, Rust: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Red|F%23|Scala|Go|Elixir|Java|Lua|Kotlin|Ruby|TypeScript|C%2B%2B|Rust|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure)
+- The number of authors: 34
+- The number of solutions: 61
+- The number of programming languages: 26
+- The language / solutions breakdown: Python: 8, JavaScript: 6, C#: 5, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Java: 2, TypeScript: 2, Kotlin: 2, Ruby: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, C: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, SQLite: 1, R: 1, ReScript: 1, Clojure: 1, Haskell: 1
+
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:8,6,5,5,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Scala|F%23|Red|Go|Java|TypeScript|Kotlin|Ruby|Lua|C%2B%2B|Elixir|Bash|C|PHP|MS+SQL|Rust|Swift|SQLite|R|ReScript|Clojure|Haskell)
 
