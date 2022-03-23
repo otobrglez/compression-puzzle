@@ -24,13 +24,13 @@ These attempts were made,...
 - **What if my language is not yet supported?** No problem. Just pretend that it does and provide some instructions on how can it be ran in the PR. We'll try to use the wizzardy of [Nix](https://nixos.org/) and/or [Docker](https://www.docker.com/) to compile and run it along with others.
 - **Can I submit multiple solutions?**
 Yes; please do.
-- **Should we benchmark the solutions agains each other?** 
+- **Should we benchmark the solutions agains each other?**
 Possibly.
-- **Why are you doing this?** 
+- **Why are you doing this?**
 Because its fun!
-- **Will there be any recap/summary/article written?** 
+- **Will there be any recap/summary/article written?**
 Hopefully, yes.
-- **How can I contact you?** 
+- **How can I contact you?**
 Try [@otobrglez](https://twitter.com/otobrglez) on Twitter or via [GitHub issues](https://github.com/otobrglez/compression-puzzle/issues) or something.
 
 ## Development
@@ -47,6 +47,7 @@ To run individual languages use:
 ```bash
 make bash
 make c++
+make crystal
 make clojure
 make cs
 make elixir
@@ -56,7 +57,7 @@ make php
 
 ## Benchmarking
 
-Although benchmarking is not the primary goal of this project; some authors are really kean to measure the performance of their solutions and compare them to others. 
+Although benchmarking is not the primary goal of this project; some authors are really kean to measure the performance of their solutions and compare them to others.
 
 These languages have benchmarking suites made and feel free to give them a try.
 
@@ -66,6 +67,9 @@ python src/python/benchmarks.py
 
 # F#
 ./src/fsharp/benchmark.fsx
+
+# Crystal
+./src/crystal/benchmark
 ```
 
 P.s.: If you feel the urge that you need to benchmark your solution agains others; please feel free to do so and attach some instructions to [your PR](https://github.com/otobrglez/compression-puzzle/pulls).
@@ -117,4 +121,3 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 - The language / solutions breakdown: Python: 9, JavaScript: 6, C#: 5, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Java: 2, TypeScript: 2, Kotlin: 2, Ruby: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, C: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, Crystal: 1, SQLite: 1, R: 1, ReScript: 1, Clojure: 1, Haskell: 1
 
 ![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Scala|F%23|Red|Go|Java|TypeScript|Kotlin|Ruby|Lua|C%2B%2B|Elixir|Bash|C|PHP|MS+SQL|Rust|Swift|Crystal|SQLite|R|ReScript|Clojure|Haskell)
-
