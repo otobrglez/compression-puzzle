@@ -201,3 +201,9 @@ authors:
     profile: https://github.com/robcole
     solutions:
       - src/crystal/compress_kbc_0.cr
+
+  - name: Alex Piechowski
+    profile: https://github.com/grepsedawk
+    solutions:
+      - src/crystal/compress_lexer.cr
+      

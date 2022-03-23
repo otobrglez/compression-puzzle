@@ -78,6 +78,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 
 | Author | Solutions |
 | --- | --- |
+|[Alex Piechowski](https://github.com/grepsedawk) | [Crystal](src/crystal/compress_lexer.cr)|
 |[Aleš Justin](https://github.com/alesj) | [Java](src/java/Compression.java)|
 |[Andraž Brodnik](http://github.com/brodul) | [Python](src/python/compress_brodul.py)|
 |[Bartłomiej Tomala](https://github.com/btomala) | [Scala](src/scala/CompressionPuzzle03.scala)|
@@ -115,9 +116,10 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 35
-- The number of solutions: 63
+- The number of authors: 36
+- The number of solutions: 64
 - The number of programming languages: 27
-- The language / solutions breakdown: Python: 9, JavaScript: 6, C#: 5, Rye: 5, Scala: 3, F#: 3, Red: 3, Go: 3, Java: 2, TypeScript: 2, Kotlin: 2, Ruby: 2, Lua: 2, C++: 2, Elixir: 2, Bash: 1, C: 1, PHP: 1, MS SQL: 1, Rust: 1, Swift: 1, Crystal: 1, SQLite: 1, R: 1, ReScript: 1, Clojure: 1, Haskell: 1
+- The language / solutions breakdown: Python: 9, JavaScript: 6, Rye: 5, C#: 5, Red: 3, Go: 3, F#: 3, Scala: 3, TypeScript: 2, Lua: 2, Crystal: 2, C++: 2, Kotlin: 2, Java: 2, Ruby: 2, Elixir: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Scala|F%23|Red|Go|Java|TypeScript|Kotlin|Ruby|Lua|C%2B%2B|Elixir|Bash|C|PHP|MS+SQL|Rust|Swift|Crystal|SQLite|R|ReScript|Clojure|Haskell)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Red|Go|F%23|Scala|TypeScript|Lua|Crystal|C%2B%2B|Kotlin|Java|Ruby|Elixir|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+
