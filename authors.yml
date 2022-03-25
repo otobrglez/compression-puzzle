@@ -10,6 +10,11 @@ authors:
       - src/javascript/compress_da01.js
       - src/javascript/compress_da02.js
 
+  - name: Domen Gabrovšek
+    profile: https://github.com/domengabrovsek
+    solutions:
+      - src/javascript/compress_dg.js
+
   - name: Goran Kodrun
     profile: https://github.com/liveandie
     solutions:
