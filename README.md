@@ -87,6 +87,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Boris](https://github.com/hiiamboris) | [Red](src/red/compress-hiiamboris.red)|
 |[David Kuridža](https://github.com/davidkuridza) | [Go](src/go/compress_david.go)|
 |[David Ličen](https://github.com/davision) | JavaScript: [compress_da01.js](src/javascript/compress_da01.js), [compress_da02.js](src/javascript/compress_da02.js)|
+|[Domen Gabrovšek](https://github.com/domengabrovsek) | [Javascript](src/javascript/compress_dg.js)|
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
 |[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
 |[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_iter.rye](src/rye/compress_jm_iter.rye), [compress_jm_iter_steps.rye](src/rye/compress_jm_iter_steps.rye), [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [compress_js_hofs.rye](src/rye/compress_js_hofs.rye), [SQLite](src/sqlite/compress_rec.sql)|
@@ -117,10 +118,11 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
+
 - The number of authors: 37
 - The number of solutions: 66
 - The number of programming languages: 27
 - The language / solutions breakdown: Python: 9, JavaScript: 6, C#: 5, Rye: 5, Ruby: 4, Red: 3, Go: 3, F#: 3, Scala: 3, Lua: 2, Crystal: 2, TypeScript: 2, Kotlin: 2, Java: 2, C++: 2, Elixir: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,4,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Ruby|Red|Go|F%23|Scala|Lua|Crystal|TypeScript|Kotlin|Java|C%2B%2B|Elixir|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Red|Go|F%23|Scala|TypeScript|Lua|Crystal|C%2B%2B|Kotlin|Java|Ruby|Elixir|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
 
