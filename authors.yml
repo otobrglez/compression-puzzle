@@ -211,4 +211,9 @@ authors:
     profile: https://github.com/grepsedawk
     solutions:
       - src/crystal/compress_lexer.cr
-      
+
+  - name: Primož Žnidar
+    profile: https://github.com/zprima
+    solutions:
+      - src/ruby/compress_prima_1.rb
+      - src/ruby/compress_prima_2.rb
