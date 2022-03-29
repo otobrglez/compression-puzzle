@@ -29,7 +29,7 @@ Possibly.
 - **Why are you doing this?**
 Because its fun!
 - **Will there be any recap/summary/article written?**
-Hopefully, yes.
+Yes. So far ve've published a blogposts [The Compression Puzzle Challenge (on epic.blog)](https://epic.blog/programming/2022/03/04/compression-puzzle.html), [The Compression Puzzle Challenge (on LinkedIn)](https://www.linkedin.com/pulse/compression-puzzle-challenge-oto-brglez/) and [Janko Metelko / Higher order functions test (blog post)](https://ryelang.blogspot.com/2022/02/higher-order-functions-test.html).
 - **How can I contact you?**
 Try [@otobrglez](https://twitter.com/otobrglez) on Twitter or via [GitHub issues](https://github.com/otobrglez/compression-puzzle/issues) or something.
 
