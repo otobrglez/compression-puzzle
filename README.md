@@ -106,6 +106,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Peter A. Pirc](https://github.com/papsl) | [C#](src/cs/pp/Program.cs)|
 |[Peter Keše](https://github.com/pkese) | F#: [compress-pk1.fsx](src/fsharp/compress-pk1.fsx), [compress-pk2.fsx](src/fsharp/compress-pk2.fsx), [compress-pk3.fsx](src/fsharp/compress-pk3.fsx)|
 |[Peter Levart](https://github.com/plevart) | [Java](src/java/Compression.java)|
+|[Primož Žnidar](https://github.com/zprima) | Ruby: [compress_prima_1.rb](src/ruby/compress_prima_1.rb), [compress_prima_2.rb](src/ruby/compress_prima_2.rb)|
 |[Rob Cole](https://github.com/robcole) | [Crystal](src/crystal/compress_kbc_0.cr)|
 |[Rok Kreslin](https://github.com/rokkreslincom) | [JavaScript](src/javascript/compress_rk.js)|
 |[Roman Luštrik](https://github.com/romunov) | [Python](src/python/compress_romunov.py), [R](src/r/compress_romunov.R)|
@@ -116,10 +117,10 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 36
-- The number of solutions: 64
+- The number of authors: 37
+- The number of solutions: 66
 - The number of programming languages: 27
-- The language / solutions breakdown: Python: 9, JavaScript: 6, Rye: 5, C#: 5, Red: 3, Go: 3, F#: 3, Scala: 3, TypeScript: 2, Lua: 2, Crystal: 2, C++: 2, Kotlin: 2, Java: 2, Ruby: 2, Elixir: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
+- The language / solutions breakdown: Python: 9, JavaScript: 6, C#: 5, Rye: 5, Ruby: 4, Red: 3, Go: 3, F#: 3, Scala: 3, Lua: 2, Crystal: 2, TypeScript: 2, Kotlin: 2, Java: 2, C++: 2, Elixir: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Red|Go|F%23|Scala|TypeScript|Lua|Crystal|C%2B%2B|Kotlin|Java|Ruby|Elixir|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,6,5,5,4,3,3,3,3,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Ruby|Red|Go|F%23|Scala|Lua|Crystal|TypeScript|Kotlin|Java|C%2B%2B|Elixir|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
 
