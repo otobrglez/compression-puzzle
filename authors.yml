@@ -217,3 +217,8 @@ authors:
     solutions:
       - src/ruby/compress_prima_1.rb
       - src/ruby/compress_prima_2.rb
+
+  - name: Luka Prebil Grintal
+    profile: https://github.com/LukaPrebil
+    solutions:
+      - src/javascript/compress_lpg.js
