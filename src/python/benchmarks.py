@@ -5,6 +5,7 @@ from compress_luka_faster import compress as compress_luka_faster
 from compress_luka import compress as compress_luka
 from compress_ob import compress as compress_ob
 from compress_urban import compress_iterative, compress_recursive
+from compression_romunov import compress_romunov
 
 number_of_executions = 10_000
 
@@ -45,4 +46,10 @@ print(
     timeit.timeit(
         "compress_recursive('AAABBAAC')", number=number_of_executions, globals=globals()
     ),
+)
+print(
+    "romunov, babysteps",
+    timeit.timeit(
+        'compress_romunov("AAABBAAC")', number=number_of_executions, globals=globals()
+    )
 )
