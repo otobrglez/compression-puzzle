@@ -222,3 +222,8 @@ authors:
     profile: https://github.com/LukaPrebil
     solutions:
       - src/javascript/compress_lpg.js
+
+  - name: Gregor Menih
+    profile: https://github.com/gmenih341
+    solutions:
+      - src/ts/compress_gm.ts
