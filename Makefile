@@ -1,10 +1,10 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
-	r c tsc
+	r c
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
-	r c tsc
+	r c
 
 clean: c++-clean c-clean
 	rm -rf build *.tasty *.class *.class* \
@@ -55,7 +55,7 @@ javascript:
 # R
 r:
 	find src/r -type f \( -iname "*.R" \) | xargs -n1 Rscript
-
+  
 # Ruby
 ruby:
 	ruby src/ruby/compress-kbc-0.rb
@@ -97,12 +97,9 @@ elixir:
 	elixir src/elixir/compress.exs
 	elixir src/elixir/compress_rec.exs
 
-typescript:
+typescript: 
 	yarn run build && \
 		find src/ts -type f \( -iname "*.js" \) | xargs -n1 node
-
-tsc:
-	tsc --noEmit src/ts/compress_gm.ts
 
 sqlite:
 	sqlite3 src/sqlite/compress_rec.db ".read src/sqlite/compress_rec.sql"
