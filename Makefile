@@ -1,10 +1,10 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
-	r c
+	r c tsc
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
-	r c
+	r c tsc
 
 clean: c++-clean c-clean
 	rm -rf build *.tasty *.class *.class* \
