@@ -145,3 +145,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 src/cs/ns2/compression-puzzle-ns2/compression-puzzle-ns2.sln
+
+# asm_80x86
+src/asm_80x86/compress_simple
+src/asm_80x86/compress_simple.o
+src/asm_80x86/compress_simple.exe
