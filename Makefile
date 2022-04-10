@@ -150,16 +150,12 @@ php:
 	php -f src/php/compress_grandfelix.php
 
 asm_80x86:	# Needs FASM to compile https://flatassembler.net/
-	ifeq ($(OS),Windows_NT)
-		fasm.exe src/compress_simple.asm src/compress_simple.exe
-	else
-		fasm src/compress_simple.asm src/compress_simple.o
-		gcc src/compress_simple.o -o src/compress_simple
-		strip src/compress_simple
-	endif
+	fasm -d Linux=TRUE src/asm_80x86/compress_simple.asm src/asm_80x86/compress_simple.o
+	gcc -m32 src/asm_80x86/compress_simple.o -o src/asm_80x86/compress_simple
+	strip src/asm_80x86/compress_simple
 
 asm_80x86-clean:
-	rm ./src/asm_80x86-clean/*.exe
+	rm src/asm_80x86/*.o src/asm_80x86/compress_simple
 
 # Rebuild the README with stats and attributions
 update-readme:
