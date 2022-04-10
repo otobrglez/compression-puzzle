@@ -1,12 +1,12 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
-	r c
+	r c asm_80x86
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
 	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
 	r c
 
-clean: c++-clean c-clean
+clean: c++-clean c-clean asm_80x86-clean
 	rm -rf build *.tasty *.class *.class* \
 		src/ts/*.js src/sqlite/compress_rec.db \
 		src/cs/*/bin src/cs/*/obj
@@ -148,6 +148,12 @@ swift:
 
 php:
 	php -f src/php/compress_grandfelix.php
+
+asm_80x86:	# Needs FASM to compile https://flatassembler.net/
+	fasm.exe src/compress_simple.asm src/compress_simple.exe
+
+asm_80x86-clean:
+	rm ./src/asm_80x86-clean/*.exe
 
 # Rebuild the README with stats and attributions
 update-readme:
