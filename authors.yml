@@ -227,3 +227,8 @@ authors:
     profile: https://github.com/gmenih341
     solutions:
       - src/ts/compress_gm.ts
+
+  - name: Lech Głowiak
+    profile: https://github.com/LGLO
+    solutions:
+      - src/scala/CompressionPuzzle04.scala
