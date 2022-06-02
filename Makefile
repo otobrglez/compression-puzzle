@@ -84,7 +84,8 @@ kotlin:
 # Haskell
 haskell:
 	echo "AAABBAAC" | runhaskell src/haskell/Compress_turbomack.hs
-
+  echo 'AAABBBCCCABC' | runhaskell src/haskell/Compress_work_foo.hs | grep -qx -e '3A3B3C1A1B1C' && echo good || echo bad
+	
 # Rust
 rust:
 	rustc src/rust/compress.rs -O --test --out-dir build/rust && ./build/rust/compress
