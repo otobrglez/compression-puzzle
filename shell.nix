@@ -1,15 +1,15 @@
-with import <nixpkgs> {};
+with import <nixpkgs> { config.allowBroken = true; };
 
 stdenv.mkDerivation {
     name = "david-puzzle";
     buildInputs = [
       clojure
-      crystal
+      # crystal_1_2
       dotnet-sdk_6
       elixir
       ghc
       git
-      go_1_16
+      go_1_18
       jdk17_headless
       kotlin
       lua
