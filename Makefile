@@ -1,9 +1,9 @@
 :PHONY: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite clean rye-docker red-docker cs c++ cpp-fast cpp-slow \
+	elixir rescript typescript sqlite clean rye-docker red-docker groovy-docker cs c++ cpp-fast cpp-slow \
 	r c
 
 run: bash clojure fs go javascript kotlin python ruby scala haskell rust \
-	elixir rescript typescript sqlite rye-docker red-docker cs cpp-fast php \
+	elixir rescript typescript sqlite rye-docker red-docker groovy-docker cs cpp-fast php \
 	r c
 
 clean: c++-clean c-clean
@@ -142,6 +142,10 @@ rye-docker:
 # Red
 red-docker:
 	docker run --rm -v $(PWD):/app --entrypoint /bin/bash rebolek/red:latest /app/src/red/run-all.sh
+
+groovy-docker:
+	docker run --rm -v $(PWD):/home/groovy/scripts \
+		-w /home/groovy/scripts groovy groovy src/groovy/*.groovy
 
 swift:
 	swift src/swift/compress_extension_grandfelix.swift

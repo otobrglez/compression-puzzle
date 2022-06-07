@@ -91,6 +91,7 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
 |[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
 |[Gregor Menih](https://github.com/gmenih341) | [TypeScript](src/ts/compress_gm.ts)|
+|[Gregor Petrin](https://github.com/gregopet) | [Groovy](src/groovy/compress.groovy)|
 |[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_iter.rye](src/rye/compress_jm_iter.rye), [compress_jm_iter_steps.rye](src/rye/compress_jm_iter_steps.rye), [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [compress_js_hofs.rye](src/rye/compress_js_hofs.rye), [SQLite](src/sqlite/compress_rec.sql)|
 |[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
 |[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
@@ -121,10 +122,10 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 41
-- The number of solutions: 70
-- The number of programming languages: 27
-- The language / solutions breakdown: Python: 9, JavaScript: 8, Rye: 5, C#: 5, Scala: 4, Ruby: 4, Red: 3, Go: 3, F#: 3, TypeScript: 3, Crystal: 2, Elixir: 2, Kotlin: 2, Java: 2, C++: 2, Lua: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
+- The number of authors: 42
+- The number of solutions: 71
+- The number of programming languages: 28
+- The language / solutions breakdown: Python: 9, JavaScript: 8, Rye: 5, C#: 5, Ruby: 4, Scala: 4, Red: 3, TypeScript: 3, Go: 3, F#: 3, Lua: 2, Kotlin: 2, C++: 2, Elixir: 2, Java: 2, Crystal: 2, C: 1, Swift: 1, PHP: 1, Groovy: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,8,5,5,4,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Scala|Ruby|Red|Go|F%23|TypeScript|Crystal|Elixir|Kotlin|Java|C%2B%2B|Lua|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,8,5,5,4,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Ruby|Scala|Red|TypeScript|Go|F%23|Lua|Kotlin|C%2B%2B|Elixir|Java|Crystal|C|Swift|PHP|Groovy|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
 

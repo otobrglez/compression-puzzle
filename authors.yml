@@ -232,3 +232,8 @@ authors:
     profile: https://github.com/LGLO
     solutions:
       - src/scala/CompressionPuzzle04.scala
+
+  - name: Gregor Petrin
+    profile: https://github.com/gregopet
+    solutions:
+      - src/groovy/compress.groovy
