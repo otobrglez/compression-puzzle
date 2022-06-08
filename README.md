@@ -29,7 +29,8 @@ Possibly.
 - **Why are you doing this?**
 Because its fun!
 - **Will there be any recap/summary/article written?**
-Yes. So far ve've published a blogposts [The Compression Puzzle Challenge (on epic.blog)](https://epic.blog/programming/2022/03/04/compression-puzzle.html), [The Compression Puzzle Challenge (on LinkedIn)](https://www.linkedin.com/pulse/compression-puzzle-challenge-oto-brglez/) and [Janko Metelko / Higher order functions test (blog post)](https://ryelang.blogspot.com/2022/02/higher-order-functions-test.html). There was also a [talk/video at DragonPy Meetup in April 2022 (YouTube link)](https://www.youtube.com/watch?v=eDdlsCM6ZbA) about it.
+Yes. So far ve've published a blogposts [The Compression Puzzle Challenge (on epic.blog)](https://epic.blog/programming/2022/03/04/compression-puzzle.html), [The Compression Puzzle Challenge (on LinkedIn)](https://www.linkedin.com/pulse/compression-puzzle-challenge-oto-brglez/) and [Janko Metelko / Higher order functions test (blog post)](https://ryelang.blogspot.com/2022/02/higher-order-functions-test.html). 
+There ware also talks about it - [DragonPy Meetup in April 2022 (YouTube link)](https://www.youtube.com/watch?v=eDdlsCM6ZbA) and "The Compression Puzzle Challenge at Make IT 2022, Portorož".
 - **How can I contact you?**
 Try [@otobrglez](https://twitter.com/otobrglez) on Twitter or via [GitHub issues](https://github.com/otobrglez/compression-puzzle/issues) or something.
 
