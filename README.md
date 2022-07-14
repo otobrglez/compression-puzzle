@@ -29,7 +29,8 @@ Possibly.
 - **Why are you doing this?**
 Because its fun!
 - **Will there be any recap/summary/article written?**
-Yes. So far ve've published a blogposts [The Compression Puzzle Challenge (on epic.blog)](https://epic.blog/programming/2022/03/04/compression-puzzle.html), [The Compression Puzzle Challenge (on LinkedIn)](https://www.linkedin.com/pulse/compression-puzzle-challenge-oto-brglez/) and [Janko Metelko / Higher order functions test (blog post)](https://ryelang.blogspot.com/2022/02/higher-order-functions-test.html). There was also a [talk/video at DragonPy Meetup in April 2022 (YouTube link)](https://www.youtube.com/watch?v=eDdlsCM6ZbA) about it.
+Yes. So far ve've published a blogposts [The Compression Puzzle Challenge (on epic.blog)](https://epic.blog/programming/2022/03/04/compression-puzzle.html), [The Compression Puzzle Challenge (on LinkedIn)](https://www.linkedin.com/pulse/compression-puzzle-challenge-oto-brglez/) and [Janko Metelko / Higher order functions test (blog post)](https://ryelang.blogspot.com/2022/02/higher-order-functions-test.html). 
+There ware also talks about it - [DragonPy Meetup in April 2022 (YouTube link)](https://www.youtube.com/watch?v=eDdlsCM6ZbA) and "The Compression Puzzle Challenge at Make IT 2022, Portorož".
 - **How can I contact you?**
 Try [@otobrglez](https://twitter.com/otobrglez) on Twitter or via [GitHub issues](https://github.com/otobrglez/compression-puzzle/issues) or something.
 
@@ -91,10 +92,12 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Goran Kodrun](https://github.com/liveandie) | [JavaScript](src/javascript/compress_go.js), [TypeScript](src/ts/compress_go2.ts)|
 |[Gregg Irwin](https://github.com/greggirwin) | [Red](src/red/compress-gregg.red)|
 |[Gregor Menih](https://github.com/gmenih341) | [TypeScript](src/ts/compress_gm.ts)|
+|[Gregor Petrin](https://github.com/gregopet) | [Groovy](src/groovy/compress.groovy)|
 |[Janko Metelko](https://github.com/refaktor) | Rye: [compress_jm_iter.rye](src/rye/compress_jm_iter.rye), [compress_jm_iter_steps.rye](src/rye/compress_jm_iter_steps.rye), [compress_jm_rec.rye](src/rye/compress_jm_rec.rye), [compress_jm_rec_steps.rye](src/rye/compress_jm_rec_steps.rye), [compress_js_hofs.rye](src/rye/compress_js_hofs.rye), [SQLite](src/sqlite/compress_rec.sql)|
 |[Jernej Virag](https://github.com/izacus) | [Kotlin](src/kotlin/compress.kts)|
 |[Klemen Kogovšek](https://github.com/kkogovsek) | [JavaScript](src/javascript/compress_reduce_klemen.js), [ReScript](src/rescript/PatternMatchCompress.res)|
 |[Krištof Črnivec](https://github.com/MrChriss) | Ruby: [compress-kbc-0.rb](src/ruby/compress-kbc-0.rb), [compress-kbc-1.rb](src/ruby/compress-kbc-1.rb)|
+|[Lech Głowiak](https://github.com/LGLO) | [Scala](src/scala/CompressionPuzzle04.scala)|
 |[Luka Kacil](https://github.com/lknix) | [Bash](src/bash/compress_lk.sh), Python: [compress_luka.py](src/python/compress_luka.py), [compress_luka_faster.py](src/python/compress_luka_faster.py), [compress_luka_rec1.py](src/python/compress_luka_rec1.py), [compress_luka_rec2.py](src/python/compress_luka_rec2.py), [compress_luka_tailrec.py](src/python/compress_luka_tailrec.py)|
 |[Luka Prebil Grintal](https://github.com/LukaPrebil) | [JavaScript](src/javascript/compress_lpg.js)|
 |[Marek Fajkus](https://github.com/turboMaCk) | [Haskell](src/haskell/Compress_turbomack.hs)|
@@ -120,10 +123,10 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 40
-- The number of solutions: 69
-- The number of programming languages: 27
-- The language / solutions breakdown: Python: 9, JavaScript: 8, C#: 5, Rye: 5, Ruby: 4, Red: 3, Go: 3, F#: 3, TypeScript: 3, Scala: 3, Crystal: 2, Elixir: 2, Kotlin: 2, Java: 2, C++: 2, Lua: 2, C: 1, Swift: 1, PHP: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
+- The number of authors: 42
+- The number of solutions: 71
+- The number of programming languages: 28
+- The language / solutions breakdown: Python: 9, JavaScript: 8, Rye: 5, C#: 5, Ruby: 4, Scala: 4, Red: 3, TypeScript: 3, Go: 3, F#: 3, Lua: 2, Kotlin: 2, C++: 2, Elixir: 2, Java: 2, Crystal: 2, C: 1, Swift: 1, PHP: 1, Groovy: 1, SQLite: 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,8,5,5,4,3,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Rye|Ruby|Red|Go|F%23|TypeScript|Scala|Crystal|Elixir|Kotlin|Java|C%2B%2B|Lua|C|Swift|PHP|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:9,8,5,5,4,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|Rye|C%23|Ruby|Scala|Red|TypeScript|Go|F%23|Lua|Kotlin|C%2B%2B|Elixir|Java|Crystal|C|Swift|PHP|Groovy|SQLite|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
 
