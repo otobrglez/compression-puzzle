@@ -242,3 +242,9 @@ authors:
     profile: https://github.com/kev-m
     solutions:
       - src/asm_80x86/compress_simple.asm
+
+  - name: Eran Ws
+    profile: https://github.com/eranws
+    solutions:
+      - src/javascript/compress_ew.js
+      - src/javascript/compress_ew2.js
