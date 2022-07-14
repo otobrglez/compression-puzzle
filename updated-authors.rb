@@ -11,7 +11,8 @@ LANGUAGES = {
   "ts" => "TypeScript",
   "php" => "PHP",
   "ms-sql" => "MS SQL",
-  "r" => "R"
+  "r" => "R",
+  "asm_80x86" => "Assembler (x86)"
 }.freeze
 
 def language_label(key)

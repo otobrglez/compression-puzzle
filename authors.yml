@@ -237,3 +237,8 @@ authors:
     profile: https://github.com/gregopet
     solutions:
       - src/groovy/compress.groovy
+
+  - name: Kevin Meyer
+    profile: https://github.com/kev-m
+    solutions:
+      - src/asm_80x86/compress_simple.asm
