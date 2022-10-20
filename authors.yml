@@ -192,6 +192,11 @@ authors:
       - src/r/compress_romunov.R
       - src/python/compress_romunov.py
 
+  - name: Teodor Janez Podobnik
+    profile: https://github.com/tp4348
+    solutions:
+      - src/python/compress_teo.py
+
   - name: Aleš Justin
     profile: https://github.com/alesj
     solutions:

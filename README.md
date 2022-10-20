@@ -121,14 +121,15 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Simon Belak](https://github.com/sbelak) | [Clojure](src/clojure/clojpression-puzzle/src/clojpression_puzzle.clj)|
 |[Simon Žlender](https://github.com/szlend) | Elixir: [compress.exs](src/elixir/compress.exs), [compress_rec.exs](src/elixir/compress_rec.exs), [Rust](src/rust/compress.rs)|
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
+|[Teodor Janez Podobnik](https://github.com/tp4348) | [Python](src/python/compress_teo.py)|
 |[Tomaž Štih](https://github.com/tstih) | [C](src/c/tomaz.c)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
 
 ## The Stats 📈
-- The number of authors: 44
+- The number of authors: 45
 - The number of solutions: 74
 - The number of programming languages: 29
-- The language / solutions breakdown: JavaScript: 10, Python: 9, C#: 5, Rye: 5, Ruby: 4, Scala: 4, Red: 3, F#: 3, Go: 3, TypeScript: 3, Crystal: 2, Kotlin: 2, Lua: 2, Java: 2, Elixir: 2, C++: 2, C: 1, Swift: 1, PHP: 1, Groovy: 1, SQLite: 1, Assembler (x86): 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
+- The language / solutions breakdown: JavaScript: 10, Python: 10, C#: 5, Rye: 5, Ruby: 4, Scala: 4, Red: 3, F#: 3, Go: 3, TypeScript: 3, Crystal: 2, Kotlin: 2, Lua: 2, Java: 2, Elixir: 2, C++: 2, C: 1, Swift: 1, PHP: 1, Groovy: 1, SQLite: 1, Assembler (x86): 1, ReScript: 1, Bash: 1, Haskell: 1, MS SQL: 1, R: 1, Clojure: 1, Rust: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:10,9,5,5,4,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=JavaScript|Python|C%23|Rye|Ruby|Scala|Red|F%23|Go|TypeScript|Crystal|Kotlin|Lua|Java|Elixir|C%2B%2B|C|Swift|PHP|Groovy|SQLite|Assembler+%28x86%29|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:10,10,5,5,4,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=JavaScript|Python|C%23|Rye|Ruby|Scala|Red|F%23|Go|TypeScript|Crystal|Kotlin|Lua|Java|Elixir|C%2B%2B|C|Swift|PHP|Groovy|SQLite|Assembler+%28x86%29|ReScript|Bash|Haskell|MS+SQL|R|Clojure|Rust)
 
