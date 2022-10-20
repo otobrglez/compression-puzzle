@@ -253,3 +253,8 @@ authors:
     solutions:
       - src/javascript/compress_ew.js
       - src/javascript/compress_ew2.js
+
+  - name: Lorand Dali
+    profile: https://github.com/lorserker
+    solutions:
+      - src/python/compress_continuations.py
