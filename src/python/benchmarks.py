@@ -7,6 +7,7 @@ from compress_ob import compress as compress_ob
 from compress_urban import compress_iterative, compress_recursive
 from compression_romunov import compress_romunov
 from compress_continuations import compress as compress_lorand
+from compress_teo import compress_teo
 
 number_of_executions = 10_000
 
@@ -62,4 +63,9 @@ print(
         globals=globals()
     )
 )
-
+print(
+    "Teo, babysteps",
+    timeit.timeit(
+        'compress_teo("AAABBAAC")', number=number_of_executions, globals=globals()
+    )
+)
