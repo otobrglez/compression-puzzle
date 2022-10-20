@@ -2,6 +2,9 @@
 **/.DS_Store
 **/*/.DS_Store
 
+src/pascal/compress
+src/pascal/*.o
+
 build/
 lib/
 

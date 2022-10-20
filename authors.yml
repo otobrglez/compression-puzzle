@@ -262,3 +262,9 @@ authors:
     profile: https://github.com/lorserker
     solutions:
       - src/python/compress_continuations.py
+
+  - name: Marko Juvančič
+    profile: https://github.com/MarkoJuvancic
+    solutions:
+      - src/pascal/compress.pas
+

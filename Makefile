@@ -147,6 +147,10 @@ groovy-docker:
 	docker run --rm -v $(PWD):/home/groovy/scripts \
 		-w /home/groovy/scripts groovy groovy src/groovy/*.groovy
 
+pascal-docker:
+	docker run --rm -i -t -v $(PWD)/src/pascal:/source nacyot/pascal-fp_compiler:apt \
+		pc -Tlinux /source/compress
+
 swift:
 	swift src/swift/compress_extension_grandfelix.swift
 
