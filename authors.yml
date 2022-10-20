@@ -253,6 +253,10 @@ authors:
     solutions:
       - src/javascript/compress_ew.js
       - src/javascript/compress_ew2.js
+      - src/python/compress_ew.py
+      - src/python/compress_ew2.py
+      - src/python/compress_ew3.py
+      - src/python/compress_ew4.py
 
   - name: Lorand Dali
     profile: https://github.com/lorserker
