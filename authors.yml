@@ -130,6 +130,11 @@ authors:
     solutions:
       - src/red/compress-hiiamboris.red
 
+  - name: "pikoslav"
+    profile: https://github.com/pikoslav
+    solutions:
+      - src/cs/piki/linq.cs
+
   - name: Peter A. Pirc
     profile: https://github.com/papsl
     solutions:
