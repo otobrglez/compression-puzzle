@@ -21,6 +21,11 @@ authors:
       - src/javascript/compress_go.js
       - src/ts/compress_go2.ts
 
+  - name: Zach Bresser
+    profile: https://github.com/CHBresser
+    solutions:
+      - src/lua/compress-bresser.lua
+
   - name: Janko Metelko
     profile: https://github.com/refaktor
     solutions:

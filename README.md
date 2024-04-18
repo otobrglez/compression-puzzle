@@ -127,13 +127,14 @@ P.s.: If you feel the urge that you need to benchmark your solution agains other
 |[Tit Petrič](https://github.com/titpetric) | [Go](src/go/compress_tit.go)|
 |[Tomaž Štih](https://github.com/tstih) | [C](src/c/tomaz.c)|
 |[Urban Škudnik](https://github.com/uskudnik) | [Python](src/python/compress_urban.py)|
+|[Zach Bresser](https://github.com/CHBresser) | [Lua](src/lua/compress-bresser.lua)|
 |[pikoslav](https://github.com/pikoslav) | C#: [linq.cs](src/cs/piki/linq.cs), [procedural.cs](src/cs/piki/procedural.cs)|
 
 ## The Stats 📈
-- The number of authors: 49
-- The number of solutions: 84
+- The number of authors: 50
+- The number of solutions: 85
 - The number of programming languages: 30
-- The language / solutions breakdown: Python: 15, JavaScript: 10, C#: 7, Scala: 5, Rye: 5, Ruby: 4, Red: 3, Go: 3, TypeScript: 3, F#: 3, Lua: 2, C++: 2, Kotlin: 2, Elixir: 2, Java: 2, Crystal: 2, Clojure: 1, R: 1, Rust: 1, C: 1, MS SQL: 1, Pascal: 1, Haskell: 1, Bash: 1, ReScript: 1, Assembler (x86): 1, SQLite: 1, Groovy: 1, PHP: 1, Swift: 1
+- The language / solutions breakdown: Python: 15, JavaScript: 10, C#: 7, Scala: 5, Rye: 5, Ruby: 4, Lua: 3, Red: 3, Go: 3, TypeScript: 3, F#: 3, C++: 2, Kotlin: 2, Elixir: 2, Java: 2, Crystal: 2, Clojure: 1, R: 1, Rust: 1, C: 1, MS SQL: 1, Pascal: 1, Haskell: 1, Bash: 1, ReScript: 1, Assembler (x86): 1, SQLite: 1, Groovy: 1, PHP: 1, Swift: 1
 
-![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:15,10,7,5,5,4,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Scala|Rye|Ruby|Red|Go|TypeScript|F%23|Lua|C%2B%2B|Kotlin|Elixir|Java|Crystal|Clojure|R|Rust|C|MS+SQL|Pascal|Haskell|Bash|ReScript|Assembler+%28x86%29|SQLite|Groovy|PHP|Swift)
+![Language / Solutions Breakdown](https://image-charts.com/chart?chs=500x500&chd=t:15,10,7,5,5,4,3,3,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1&cht=p3&chl=Python|JavaScript|C%23|Scala|Rye|Ruby|Lua|Red|Go|TypeScript|F%23|C%2B%2B|Kotlin|Elixir|Java|Crystal|Clojure|R|Rust|C|MS+SQL|Pascal|Haskell|Bash|ReScript|Assembler+%28x86%29|SQLite|Groovy|PHP|Swift)
 
