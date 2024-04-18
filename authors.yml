@@ -81,6 +81,11 @@ authors:
       - src/python/compress_ob.py
       - src/javascript/compress_ob.js
 
+  - name: Rok Kralj
+    profile: https://github.com/strelec
+    solutions:
+      - src/scala/CompressionPuzzle05.scala
+
   - name: Peter Keše
     profile: https://github.com/pkese
     solutions:
