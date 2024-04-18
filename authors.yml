@@ -134,6 +134,7 @@ authors:
     profile: https://github.com/pikoslav
     solutions:
       - src/cs/piki/linq.cs
+      - src/cs/piki/procedural.cs
 
   - name: Peter A. Pirc
     profile: https://github.com/papsl
